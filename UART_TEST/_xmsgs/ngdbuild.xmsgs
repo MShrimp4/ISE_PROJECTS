@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;sw&lt;7&gt;&quot; LOC = P134;&gt; [x9.ucf(19)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">sw&lt;7&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;sw&lt;7&gt;&quot; LOC = P134;&gt; [x9.ucf(19)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;sw&lt;6&gt;&quot; LOC = P137;&gt; [x9.ucf(20)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">sw&lt;6&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;sw&lt;6&gt;&quot; LOC = P137;&gt; [x9.ucf(20)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;sw&lt;5&gt;&quot; LOC = P138;&gt; [x9.ucf(21)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">sw&lt;5&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;sw&lt;5&gt;&quot; LOC = P138;&gt; [x9.ucf(21)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;sw&lt;4&gt;&quot; LOC = P139;&gt; [x9.ucf(22)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">sw&lt;4&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;sw&lt;4&gt;&quot; LOC = P139;&gt; [x9.ucf(22)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;sw&lt;3&gt;&quot; LOC = P140;&gt; [x9.ucf(23)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">sw&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;sw&lt;3&gt;&quot; LOC = P140;&gt; [x9.ucf(23)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;sw&lt;2&gt;&quot; LOC = P141;&gt; [x9.ucf(24)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">sw&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;sw&lt;2&gt;&quot; LOC = P141;&gt; [x9.ucf(24)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;sw&lt;1&gt;&quot; LOC = P142;&gt; [x9.ucf(25)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">sw&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;sw&lt;1&gt;&quot; LOC = P142;&gt; [x9.ucf(25)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;sw&lt;0&gt;&quot; LOC = P143;&gt; [x9.ucf(26)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">sw&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;sw&lt;0&gt;&quot; LOC = P143;&gt; [x9.ucf(26)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;colon_led&quot; LOC = P120;&gt; [x9.ucf(52)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">colon_led</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;colon_led&quot; LOC = P120;&gt; [x9.ucf(52)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;deg_led&quot; LOC = P126;&gt; [x9.ucf(53)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">deg_led</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;deg_led&quot; LOC = P126;&gt; [x9.ucf(53)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;r&lt;3&gt;&quot; LOC = P11 |&gt; [x9.ucf(70)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;r&lt;3&gt;&quot; LOC = P11 |&gt; [x9.ucf(70)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(70)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(70)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;r&lt;2&gt;&quot; LOC = P12 |&gt; [x9.ucf(71)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;r&lt;2&gt;&quot; LOC = P12 |&gt; [x9.ucf(71)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(71)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(71)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;r&lt;1&gt;&quot; LOC = P14 |&gt; [x9.ucf(72)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;r&lt;1&gt;&quot; LOC = P14 |&gt; [x9.ucf(72)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(72)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(72)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;r&lt;0&gt;&quot; LOC = P15 |&gt; [x9.ucf(73)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;r&lt;0&gt;&quot; LOC = P15 |&gt; [x9.ucf(73)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(73)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(73)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">r&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;g&lt;3&gt;&quot; LOC = P7 |&gt; [x9.ucf(74)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;g&lt;3&gt;&quot; LOC = P7 |&gt; [x9.ucf(74)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(74)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(74)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;g&lt;2&gt;&quot; LOC = P8 |&gt; [x9.ucf(75)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;g&lt;2&gt;&quot; LOC = P8 |&gt; [x9.ucf(75)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(75)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(75)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;g&lt;1&gt;&quot; LOC = P9 |&gt; [x9.ucf(76)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;g&lt;1&gt;&quot; LOC = P9 |&gt; [x9.ucf(76)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(76)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(76)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;g&lt;0&gt;&quot; LOC = P10 |&gt; [x9.ucf(77)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;g&lt;0&gt;&quot; LOC = P10 |&gt; [x9.ucf(77)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(77)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(77)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">g&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;b&lt;3&gt;&quot; LOC = P1 |&gt; [x9.ucf(78)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;b&lt;3&gt;&quot; LOC = P1 |&gt; [x9.ucf(78)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(78)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(78)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;b&lt;2&gt;&quot; LOC = P2 |&gt; [x9.ucf(79)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;b&lt;2&gt;&quot; LOC = P2 |&gt; [x9.ucf(79)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(79)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(79)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;b&lt;1&gt;&quot; LOC = P5 |&gt; [x9.ucf(80)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;b&lt;1&gt;&quot; LOC = P5 |&gt; [x9.ucf(80)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(80)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(80)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;b&lt;0&gt;&quot; LOC = P6 |&gt; [x9.ucf(81)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;b&lt;0&gt;&quot; LOC = P6 |&gt; [x9.ucf(81)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(81)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(81)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">b&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;vsync&quot; LOC = P17 |&gt; [x9.ucf(82)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">vsync</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;vsync&quot; LOC = P17 |&gt; [x9.ucf(82)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(82)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">vsync</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(82)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">vsync</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;hsync&quot; LOC = P16 |&gt; [x9.ucf(83)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">hsync</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;hsync&quot; LOC = P16 |&gt; [x9.ucf(83)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;DRIVE=8 |&gt; [x9.ucf(83)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">hsync</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW = FAST;&gt; [x9.ucf(83)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">hsync</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ps2c&quot; LOC=P24 |&gt; [x9.ucf(88)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ps2c</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ps2c&quot; LOC=P24 |&gt; [x9.ucf(88)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [x9.ucf(88)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ps2c</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW=FAST;&gt; [x9.ucf(88)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ps2c</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ps2d&quot; LOC=P26 |&gt; [x9.ucf(89)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ps2d</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ps2d&quot; LOC=P26 |&gt; [x9.ucf(89)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [x9.ucf(89)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ps2d</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;SLEW=FAST;&gt; [x9.ucf(89)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ps2d</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+</messages>
+

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/rotating_led/roatating_led.xst" -ofn "/home/ise/ISE_PROJECTS/rotating_led/roatating_led.syr" 

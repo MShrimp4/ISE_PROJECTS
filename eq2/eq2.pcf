@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Fri May 03 10:24:55 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "a<0>" LOCATE = SITE "P140" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "P141" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "P142" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "P143" LEVEL 1;
+COMP "aeqb" LOCATE = SITE "P61" LEVEL 1;
+SCHEMATIC END;
+

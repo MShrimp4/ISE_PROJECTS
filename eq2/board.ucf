@@ -1,0 +1,5 @@
+NET "a<0>" LOC = P140;
+NET "a<1>" LOC = P141;
+NET "b<0>" LOC = P142;
+NET "b<1>" LOC = P143;
+NET "aeqb" LOC = P61;

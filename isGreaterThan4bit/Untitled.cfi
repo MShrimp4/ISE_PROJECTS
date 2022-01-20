@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20160913
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20160913
+DATE             5/15/2019 - 11:38
+SOURCE          /home/ise/ISE_PROJECTS/isGreaterThan4bit/Untitled.mcs
+DEVICE          XCF04S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x02D4C100
+START_ADDRESS   0x00000000 END_ADDRESS 0x0005327B DIRECTION_UP   "/home/ise/ISE_PROJECTS/pong_2p/pong_top_an.bit" 6slx9tqg144

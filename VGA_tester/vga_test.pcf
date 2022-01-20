@@ -1,0 +1,36 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Mon May 06 01:59:02 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "r<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "g<0>" LOCATE = SITE "P10" LEVEL 1;
+COMP "g<1>" LOCATE = SITE "P9" LEVEL 1;
+COMP "clk" LOCATE = SITE "P21" LEVEL 1;
+COMP "g<2>" LOCATE = SITE "P8" LEVEL 1;
+COMP "hsync" LOCATE = SITE "P16" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "P143" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "P142" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "P141" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "P6" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "P5" LEVEL 1;
+COMP "b<2>" LOCATE = SITE "P2" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P17" LEVEL 1;
+COMP "r<0>" LOCATE = SITE "P15" LEVEL 1;
+COMP "r<1>" LOCATE = SITE "P14" LEVEL 1;
+TIMEGRP clk = BEL "rgb_reg_0" BEL "rgb_reg_1" BEL "rgb_reg_2" BEL
+        "vsync_unit/h_count_reg_9" BEL "vsync_unit/h_count_reg_8" BEL
+        "vsync_unit/h_count_reg_7" BEL "vsync_unit/h_count_reg_6" BEL
+        "vsync_unit/h_count_reg_5" BEL "vsync_unit/h_count_reg_4" BEL
+        "vsync_unit/h_count_reg_3" BEL "vsync_unit/h_count_reg_2" BEL
+        "vsync_unit/h_count_reg_1" BEL "vsync_unit/h_count_reg_0" BEL
+        "vsync_unit/v_count_reg_9" BEL "vsync_unit/v_count_reg_8" BEL
+        "vsync_unit/v_count_reg_7" BEL "vsync_unit/v_count_reg_6" BEL
+        "vsync_unit/v_count_reg_5" BEL "vsync_unit/v_count_reg_4" BEL
+        "vsync_unit/v_count_reg_3" BEL "vsync_unit/v_count_reg_2" BEL
+        "vsync_unit/v_count_reg_1" BEL "vsync_unit/v_count_reg_0" BEL
+        "vsync_unit/h_sync_reg" BEL "vsync_unit/v_sync_reg" BEL
+        "vsync_unit/mod2_reg" BEL "clk_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "clk" 40 ns HIGH 50%;
+SCHEMATIC END;
+

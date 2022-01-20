@@ -1,0 +1,22 @@
+C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/moore_edge.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/moore_edge.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module moore_edge
+
+Top level modules:
+	moore_edge
+
+} {} {}} C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/mealy_edge.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/mealy_edge.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mealy_edge
+
+Top level modules:
+	mealy_edge
+
+} {} {}} C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/simulate_edge_detector.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/simulate_edge_detector.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module sim_edge
+
+Top level modules:
+	sim_edge
+
+} {} {}}

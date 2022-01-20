@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.xst" -ofn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.xst" -ofn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 pwm_test.ngc pwm_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 pwm_test.ngc pwm_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_test_map.ncd pwm_test.ngd pwm_test.pcf 
+par -w -intstyle ise -ol high -mt off pwm_test_map.ncd pwm_test.ncd pwm_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_test.twx pwm_test.ncd -o pwm_test.twr pwm_test.pcf -ucf x9.ucf 
+bitgen -intstyle ise -f pwm_test.ut pwm_test.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.xst" -ofn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 pwm_test.ngc pwm_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_test_map.ncd pwm_test.ngd pwm_test.pcf 
+par -w -intstyle ise -ol high -mt off pwm_test_map.ncd pwm_test.ncd pwm_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_test.twx pwm_test.ncd -o pwm_test.twr pwm_test.pcf -ucf x9.ucf 
+bitgen -intstyle ise -f pwm_test.ut pwm_test.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.xst" -ofn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 pwm_test.ngc pwm_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_test_map.ncd pwm_test.ngd pwm_test.pcf 
+par -w -intstyle ise -ol high -mt off pwm_test_map.ncd pwm_test.ncd pwm_test.pcf 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.xst" -ofn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 pwm_test.ngc pwm_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_test_map.ncd pwm_test.ngd pwm_test.pcf 
+par -w -intstyle ise -ol high -mt off pwm_test_map.ncd pwm_test.ncd pwm_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_test.twx pwm_test.ncd -o pwm_test.twr pwm_test.pcf -ucf x9.ucf 
+bitgen -intstyle ise -f pwm_test.ut pwm_test.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.xst" -ofn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 pwm_test.ngc pwm_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_test_map.ncd pwm_test.ngd pwm_test.pcf 
+par -w -intstyle ise -ol high -mt off pwm_test_map.ncd pwm_test.ncd pwm_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_test.twx pwm_test.ncd -o pwm_test.twr pwm_test.pcf -ucf x9.ucf 
+bitgen -intstyle ise -f pwm_test.ut pwm_test.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.xst" -ofn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.xst" -ofn "/home/ise/ISE_PROJECTS/pwm_led_dimmer/pwm_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 pwm_test.ngc pwm_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_test_map.ncd pwm_test.ngd pwm_test.pcf 
+par -w -intstyle ise -ol high -mt off pwm_test_map.ncd pwm_test.ncd pwm_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_test.twx pwm_test.ncd -o pwm_test.twr pwm_test.pcf -ucf x9.ucf 
+bitgen -intstyle ise -f pwm_test.ut pwm_test.ncd 

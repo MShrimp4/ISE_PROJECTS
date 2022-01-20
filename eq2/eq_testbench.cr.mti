@@ -1,0 +1,16 @@
+C:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/eq2.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/eq2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module eq1
+-- Compiling module eq2
+
+Top level modules:
+	eq2
+
+} {} {}} C:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/testbench.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/testbench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module eq2_testbench
+
+Top level modules:
+	eq2_testbench
+
+} {} {}}

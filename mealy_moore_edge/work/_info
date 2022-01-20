@@ -1,0 +1,158 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/mshrimp/Documents/ISE_PROJECTS/pwm_led_dimmer
+vadder
+Z0 !s110 1558260124
+!i10b 1
+!s100 2IL]28VE^GoS[NfO18[;g2
+I?T?X3gVPS1SlOERF[YeXI3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge
+w1558259518
+8C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\adder.v
+FC:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\adder.v
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1558260124.000000
+!s107 C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\adder.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vCSA
+R0
+!i10b 1
+!s100 nzS?jdQ4lDZfWWz:lX>`O2
+IiKQJKFmAzo4i>9]5[5gBT3
+R1
+R2
+w1558257754
+8C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\csa.v
+FC:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\csa.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\csa.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\csa.v|
+!s101 -O0
+!i113 1
+R5
+n@c@s@a
+vmealy_edge
+!s110 1557052640
+!i10b 1
+!s100 T4LKi_Dc]I>5JaVeE>BzP3
+IV:IKGJ9:M4W>gkenOezKM1
+R1
+R2
+w1557052610
+8C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/mealy_edge.v
+FC:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/mealy_edge.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1557052640.000000
+!s107 C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/mealy_edge.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/mealy_edge.v|
+!s101 -O0
+!i113 1
+R5
+vmoore_edge
+!s110 1557052244
+!i10b 1
+!s100 RQJVSnV]jlEVIb6Xb08YV0
+I22X;_WYkJzY?hdM5o=cbn2
+R1
+R2
+w1557052239
+8C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/moore_edge.v
+FC:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/moore_edge.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1557052244.000000
+!s107 C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/moore_edge.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/moore_edge.v|
+!s101 -O0
+!i113 1
+R5
+vmux
+R0
+!i10b 1
+!s100 ?J3EVDLb6I][LAO[]hBGR1
+IMjRUM]ZZ8g?>c=Bm_K4OI2
+R1
+R2
+w1558257030
+8C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\mux.v
+FC:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\mux.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\mux.v|
+!s101 -O0
+!i113 1
+R5
+vsim_edge
+!s110 1557053183
+!i10b 1
+!s100 OPbci2l=<nadfWVf4E_;12
+I<^5bg@k8BiTlD6mUO2b`C2
+R1
+R2
+w1557053169
+8C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/simulate_edge_detector.v
+FC:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/simulate_edge_detector.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1557053183.000000
+!s107 C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/simulate_edge_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mshrimp/Documents/ISE_PROJECTS/mealy_moore_edge/simulate_edge_detector.v|
+!s101 -O0
+!i113 1
+R5
+vtest
+R0
+!i10b 1
+!s100 B;QfmDLidihe8QBJ`TaYk0
+ILUHQ^bmHUD6nRz46InP];3
+R1
+R2
+w1558260113
+8C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\test.v
+FC:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\test.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\mshrimp\Documents\ISE_PROJECTS\mealy_moore_edge\test.v|
+!s101 -O0
+!i113 1
+R5

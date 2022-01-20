@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20160913
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o /home/ise/ISE_PROJECTS/pong_2p//pong2p_final -s 4096 -u 0000 /home/ise/ISE_PROJECTS/pong_2p/pong_top_an.bit -spi 
+
+PROM /home/ise/ISE_PROJECTS/pong_2p/pong2p_final.prm map: Sat May 18 05:13:16 2019
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          4096K
+PROM start    0000:0000
+PROM end      003f:ffff
+PROM checksum 3aa32153
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:327b     May 18 05:10:04 2019 /home/ise/ISE_PROJECTS/pong_2p/pong_top_an.bit

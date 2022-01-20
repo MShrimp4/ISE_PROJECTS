@@ -1,0 +1,22 @@
+C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_4bit.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_4bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module gt_4bit
+
+Top level modules:
+	gt_4bit
+
+} {} {}} C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_1bit.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_1bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module gt_1bit
+
+Top level modules:
+	gt_1bit
+
+} {} {}} C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_test.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_test.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module gt_test
+
+Top level modules:
+	gt_test
+
+} {} {}}

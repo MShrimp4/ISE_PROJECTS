@@ -1,0 +1,6 @@
+verilog work "right_barrel_shifter.v"
+verilog work "left_barrel_shifter.v"
+verilog work "multi_barrel_shifter.v"
+verilog work "list_ch04_13_disp_mux.v"
+verilog work "hex_to_sseg.v"
+verilog work "shifter_interface.v"

@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.xst" -ofn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 rotate_test.ngc rotate_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 rotate_test.ngc rotate_test.ngd  
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.xst" -ofn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 rotate_test.ngc rotate_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rotate_test_map.ncd rotate_test.ngd rotate_test.pcf 
+par -w -intstyle ise -ol high -mt off rotate_test_map.ncd rotate_test.ncd rotate_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rotate_test.twx rotate_test.ncd -o rotate_test.twr rotate_test.pcf -ucf x9.ucf 
+bitgen -intstyle ise -f rotate_test.ut rotate_test.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.xst" -ofn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 rotate_test.ngc rotate_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rotate_test_map.ncd rotate_test.ngd rotate_test.pcf 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.xst" -ofn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 rotate_test.ngc rotate_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rotate_test_map.ncd rotate_test.ngd rotate_test.pcf 
+par -w -intstyle ise -ol high -mt off rotate_test_map.ncd rotate_test.ncd rotate_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rotate_test.twx rotate_test.ncd -o rotate_test.twr rotate_test.pcf -ucf x9.ucf 
+bitgen -intstyle ise -f rotate_test.ut rotate_test.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.xst" -ofn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 rotate_test.ngc rotate_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rotate_test_map.ncd rotate_test.ngd rotate_test.pcf 
+par -w -intstyle ise -ol high -mt off rotate_test_map.ncd rotate_test.ncd rotate_test.pcf 
+bitgen -intstyle ise -f rotate_test.ut rotate_test.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.xst" -ofn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 rotate_test.ngc rotate_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rotate_test_map.ncd rotate_test.ngd rotate_test.pcf 
+par -w -intstyle ise -ol high -mt off rotate_test_map.ncd rotate_test.ncd rotate_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rotate_test.twx rotate_test.ncd -o rotate_test.twr rotate_test.pcf -ucf x9.ucf 
+bitgen -intstyle ise -f rotate_test.ut rotate_test.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.xst" -ofn "/home/ise/ISE_PROJECTS/rotating_led/rotate_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 rotate_test.ngc rotate_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rotate_test_map.ncd rotate_test.ngd rotate_test.pcf 
+par -w -intstyle ise -ol high -mt off rotate_test_map.ncd rotate_test.ncd rotate_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rotate_test.twx rotate_test.ncd -o rotate_test.twr rotate_test.pcf -ucf x9.ucf 
+bitgen -intstyle ise -f rotate_test.ut rotate_test.ncd 

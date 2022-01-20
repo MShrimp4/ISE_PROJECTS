@@ -1,0 +1,469 @@
+Release 14.7 ngdbuild P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2
+shifter_interface.ngc shifter_interface.ngd
+
+Reading NGO file
+"/home/ise/ISE_PROJECTS/multi_barrel_shifter/shifter_interface.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "x9.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:59 - Constraint <NET "rx" LOC = P23 |> [x9.ucf(31)]: NET
+   "rx" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "rx" LOC = P23 |> [x9.ucf(31)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(31)]: NET "rx" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [x9.ucf(31)]: NET "rx" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "tx" LOC = P22 |> [x9.ucf(32)]: NET
+   "tx" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "tx" LOC = P22 |> [x9.ucf(32)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(32)]: NET "tx" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [x9.ucf(32)]: NET "tx" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "colon_led" LOC = P120;>
+   [x9.ucf(52)]: NET "colon_led" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "colon_led" LOC = P120;> [x9.ucf(52)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "deg_led" LOC = P126;> [x9.ucf(53)]:
+   NET "deg_led" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "deg_led" LOC = P126;> [x9.ucf(53)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "led<7>" LOC = P61;> [x9.ucf(58)]:
+   NET "led<7>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led<7>" LOC = P61;> [x9.ucf(58)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "led<6>" LOC = P59;> [x9.ucf(59)]:
+   NET "led<6>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led<6>" LOC = P59;> [x9.ucf(59)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "led<5>" LOC = P58;> [x9.ucf(60)]:
+   NET "led<5>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led<5>" LOC = P58;> [x9.ucf(60)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "led<4>" LOC = P57;> [x9.ucf(61)]:
+   NET "led<4>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led<4>" LOC = P57;> [x9.ucf(61)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "led<3>" LOC = P47;> [x9.ucf(62)]:
+   NET "led<3>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led<3>" LOC = P47;> [x9.ucf(62)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "led<2>" LOC = P46;> [x9.ucf(63)]:
+   NET "led<2>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led<2>" LOC = P46;> [x9.ucf(63)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "led<1>" LOC = P45;> [x9.ucf(64)]:
+   NET "led<1>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led<1>" LOC = P45;> [x9.ucf(64)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "led<0>" LOC = P44;> [x9.ucf(65)]:
+   NET "led<0>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led<0>" LOC = P44;> [x9.ucf(65)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "r<3>" LOC = P11 |> [x9.ucf(70)]: NET
+   "r<3>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "r<3>" LOC = P11 |> [x9.ucf(70)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(70)]: NET "r<3>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(70)]: NET "r<3>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "r<2>" LOC = P12 |> [x9.ucf(71)]: NET
+   "r<2>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "r<2>" LOC = P12 |> [x9.ucf(71)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(71)]: NET "r<2>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(71)]: NET "r<2>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "r<1>" LOC = P14 |> [x9.ucf(72)]: NET
+   "r<1>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "r<1>" LOC = P14 |> [x9.ucf(72)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(72)]: NET "r<1>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(72)]: NET "r<1>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "r<0>" LOC = P15 |> [x9.ucf(73)]: NET
+   "r<0>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "r<0>" LOC = P15 |> [x9.ucf(73)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(73)]: NET "r<0>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(73)]: NET "r<0>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "g<3>" LOC = P7 |> [x9.ucf(74)]: NET
+   "g<3>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "g<3>" LOC = P7 |> [x9.ucf(74)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(74)]: NET "g<3>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(74)]: NET "g<3>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "g<2>" LOC = P8 |> [x9.ucf(75)]: NET
+   "g<2>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "g<2>" LOC = P8 |> [x9.ucf(75)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(75)]: NET "g<2>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(75)]: NET "g<2>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "g<1>" LOC = P9 |> [x9.ucf(76)]: NET
+   "g<1>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "g<1>" LOC = P9 |> [x9.ucf(76)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(76)]: NET "g<1>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(76)]: NET "g<1>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "g<0>" LOC = P10 |> [x9.ucf(77)]: NET
+   "g<0>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "g<0>" LOC = P10 |> [x9.ucf(77)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(77)]: NET "g<0>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(77)]: NET "g<0>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "b<3>" LOC = P1 |> [x9.ucf(78)]: NET
+   "b<3>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "b<3>" LOC = P1 |> [x9.ucf(78)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(78)]: NET "b<3>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(78)]: NET "b<3>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "b<2>" LOC = P2 |> [x9.ucf(79)]: NET
+   "b<2>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "b<2>" LOC = P2 |> [x9.ucf(79)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(79)]: NET "b<2>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(79)]: NET "b<2>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "b<1>" LOC = P5 |> [x9.ucf(80)]: NET
+   "b<1>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "b<1>" LOC = P5 |> [x9.ucf(80)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(80)]: NET "b<1>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(80)]: NET "b<1>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "b<0>" LOC = P6 |> [x9.ucf(81)]: NET
+   "b<0>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "b<0>" LOC = P6 |> [x9.ucf(81)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(81)]: NET "b<0>" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(81)]: NET "b<0>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "vsync" LOC = P17 |> [x9.ucf(82)]:
+   NET "vsync" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "vsync" LOC = P17 |> [x9.ucf(82)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(82)]: NET "vsync" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(82)]: NET "vsync"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "hsync" LOC = P16 |> [x9.ucf(83)]:
+   NET "hsync" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "hsync" LOC = P16 |> [x9.ucf(83)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [x9.ucf(83)]: NET "hsync" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW = FAST;> [x9.ucf(83)]: NET "hsync"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "ps2c" LOC=P24 |> [x9.ucf(88)]: NET
+   "ps2c" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "ps2c" LOC=P24 |> [x9.ucf(88)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |> [x9.ucf(88)]:
+   NET "ps2c" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [x9.ucf(88)]: NET "ps2c" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "ps2d" LOC=P26 |> [x9.ucf(89)]: NET
+   "ps2d" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "ps2d" LOC=P26 |> [x9.ucf(89)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |> [x9.ucf(89)]:
+   NET "ps2d" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [x9.ucf(89)]: NET "ps2d" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  28
+
+Total memory usage is 400124 kilobytes
+
+Writing NGD file "shifter_interface.ngd" ...
+Total REAL time to NGDBUILD completion:  6 sec
+Total CPU time to NGDBUILD completion:   6 sec
+
+Writing NGDBUILD log file "shifter_interface.bld"...

@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/mshrimp/Documents/ISE_PROJECTS/eq2
+vdisp_mux
+Z0 !s110 1555762735
+!i10b 1
+!s100 ?]X9BLg8iQnUDSm9A5L[B3
+InL>HAWdJk0ASAkzhGgeZh2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg
+w1555762293
+8C:\Users\mshrimp\Documents\ISE_PROJECTS\HEX_to_sseg\list_ch04_13_disp_mux.v
+FC:\Users\mshrimp\Documents\ISE_PROJECTS\HEX_to_sseg\list_ch04_13_disp_mux.v
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1555762734.000000
+!s107 C:\Users\mshrimp\Documents\ISE_PROJECTS\HEX_to_sseg\list_ch04_13_disp_mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\mshrimp\Documents\ISE_PROJECTS\HEX_to_sseg\list_ch04_13_disp_mux.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vhex_to_sseg
+!s110 1555762734
+!i10b 1
+!s100 7@BmY5zR[E2B5AM[<>6JK3
+IF9eiF]jBdgIo?]HjN>`9l0
+R1
+R2
+w1555749637
+8C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg.v
+FC:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg.v|
+!s101 -O0
+!i113 1
+R5
+vhex_to_sseg_sim
+R0
+!i10b 1
+!s100 :5b9IUIR_AFe8R`PKd4jD1
+I1Fi>aa394A:BZ4i`=BHEP2
+R1
+R2
+w1555762468
+8C:\Users\mshrimp\Documents\ISE_PROJECTS\HEX_to_sseg\hex_to_sseg_sim.v
+FC:\Users\mshrimp\Documents\ISE_PROJECTS\HEX_to_sseg\hex_to_sseg_sim.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z6 !s108 1555762735.000000
+!s107 C:\Users\mshrimp\Documents\ISE_PROJECTS\HEX_to_sseg\hex_to_sseg_sim.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\mshrimp\Documents\ISE_PROJECTS\HEX_to_sseg\hex_to_sseg_sim.v|
+!s101 -O0
+!i113 1
+R5
+vhex_to_sseg_test
+R0
+!i10b 1
+!s100 SN3C1kBg8@La0HOEHhANW3
+I@FhNBkRVcdjlD[WM<;QDV2
+R1
+R2
+w1555752334
+8C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg_test.v
+FC:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg_test.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg_test.v|
+!s101 -O0
+!i113 1
+R5

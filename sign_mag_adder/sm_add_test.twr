@@ -1,0 +1,149 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml sm_add_test.twx sm_add_test.ncd -o sm_add_test.twr
+sm_add_test.pcf -ucf board.ucf
+
+Design file:              sm_add_test.ncd
+Physical constraint file: sm_add_test.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+an<0>       |         9.825(R)|      SLOW  |         4.050(R)|      FAST  |clk_BUFGP         |   0.000|
+an<1>       |         9.890(R)|      SLOW  |         4.071(R)|      FAST  |clk_BUFGP         |   0.000|
+an<2>       |        10.508(R)|      SLOW  |         4.505(R)|      FAST  |clk_BUFGP         |   0.000|
+an<3>       |        10.617(R)|      SLOW  |         4.582(R)|      FAST  |clk_BUFGP         |   0.000|
+sseg<0>     |        11.534(R)|      SLOW  |         5.307(R)|      FAST  |clk_BUFGP         |   0.000|
+sseg<1>     |        11.030(R)|      SLOW  |         4.616(R)|      FAST  |clk_BUFGP         |   0.000|
+sseg<2>     |        11.784(R)|      SLOW  |         5.252(R)|      FAST  |clk_BUFGP         |   0.000|
+sseg<3>     |        11.375(R)|      SLOW  |         5.113(R)|      FAST  |clk_BUFGP         |   0.000|
+sseg<4>     |        11.663(R)|      SLOW  |         5.035(R)|      FAST  |clk_BUFGP         |   0.000|
+sseg<5>     |        11.845(R)|      SLOW  |         5.313(R)|      FAST  |clk_BUFGP         |   0.000|
+sseg<6>     |        11.006(R)|      SLOW  |         4.905(R)|      FAST  |clk_BUFGP         |   0.000|
+sseg<7>     |        10.253(R)|      SLOW  |         4.301(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.182|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+btn<0>         |sseg<0>        |   10.892|
+btn<0>         |sseg<1>        |   10.250|
+btn<0>         |sseg<2>        |   10.645|
+btn<0>         |sseg<3>        |   10.873|
+btn<0>         |sseg<4>        |   10.883|
+btn<0>         |sseg<5>        |   10.706|
+btn<0>         |sseg<6>        |   10.504|
+btn<1>         |sseg<0>        |   10.929|
+btn<1>         |sseg<1>        |   10.287|
+btn<1>         |sseg<2>        |   10.682|
+btn<1>         |sseg<3>        |   10.910|
+btn<1>         |sseg<4>        |   10.920|
+btn<1>         |sseg<5>        |   10.743|
+btn<1>         |sseg<6>        |   10.541|
+sw<0>          |sseg<0>        |   12.663|
+sw<0>          |sseg<1>        |   12.021|
+sw<0>          |sseg<2>        |   12.416|
+sw<0>          |sseg<3>        |   12.644|
+sw<0>          |sseg<4>        |   12.654|
+sw<0>          |sseg<5>        |   12.477|
+sw<0>          |sseg<6>        |   12.275|
+sw<1>          |sseg<0>        |   12.871|
+sw<1>          |sseg<1>        |   12.229|
+sw<1>          |sseg<2>        |   12.624|
+sw<1>          |sseg<3>        |   12.852|
+sw<1>          |sseg<4>        |   12.862|
+sw<1>          |sseg<5>        |   12.685|
+sw<1>          |sseg<6>        |   12.483|
+sw<2>          |sseg<0>        |   13.139|
+sw<2>          |sseg<1>        |   12.497|
+sw<2>          |sseg<2>        |   12.892|
+sw<2>          |sseg<3>        |   13.120|
+sw<2>          |sseg<4>        |   13.130|
+sw<2>          |sseg<5>        |   12.953|
+sw<2>          |sseg<6>        |   12.751|
+sw<3>          |sseg<0>        |   12.807|
+sw<3>          |sseg<1>        |   12.165|
+sw<3>          |sseg<2>        |   12.560|
+sw<3>          |sseg<3>        |   12.788|
+sw<3>          |sseg<4>        |   12.798|
+sw<3>          |sseg<5>        |   12.621|
+sw<3>          |sseg<6>        |   12.419|
+sw<4>          |sseg<0>        |   12.523|
+sw<4>          |sseg<1>        |   11.881|
+sw<4>          |sseg<2>        |   12.276|
+sw<4>          |sseg<3>        |   12.504|
+sw<4>          |sseg<4>        |   12.514|
+sw<4>          |sseg<5>        |   12.337|
+sw<4>          |sseg<6>        |   12.135|
+sw<5>          |sseg<0>        |   12.788|
+sw<5>          |sseg<1>        |   12.146|
+sw<5>          |sseg<2>        |   12.541|
+sw<5>          |sseg<3>        |   12.769|
+sw<5>          |sseg<4>        |   12.779|
+sw<5>          |sseg<5>        |   12.602|
+sw<5>          |sseg<6>        |   12.400|
+sw<6>          |sseg<0>        |   12.673|
+sw<6>          |sseg<1>        |   12.031|
+sw<6>          |sseg<2>        |   12.426|
+sw<6>          |sseg<3>        |   12.654|
+sw<6>          |sseg<4>        |   12.664|
+sw<6>          |sseg<5>        |   12.487|
+sw<6>          |sseg<6>        |   12.285|
+sw<7>          |sseg<0>        |   12.583|
+sw<7>          |sseg<1>        |   11.941|
+sw<7>          |sseg<2>        |   12.336|
+sw<7>          |sseg<3>        |   12.564|
+sw<7>          |sseg<4>        |   12.574|
+sw<7>          |sseg<5>        |   12.397|
+sw<7>          |sseg<6>        |   12.195|
+---------------+---------------+---------+
+
+
+Analysis completed Fri May  3 15:06:34 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 382 MB
+
+
+

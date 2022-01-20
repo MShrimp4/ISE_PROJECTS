@@ -1,0 +1,5 @@
+verilog work "list_ch04_13_disp_mux.v"
+verilog work "hex_to_sseg.v"
+verilog work "free_bin_counter.v"
+verilog work "roatating_led.v"
+verilog work "rotate_test.v"

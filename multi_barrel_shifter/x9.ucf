@@ -1,0 +1,108 @@
+###################################
+# Pin assignment for Xilinx
+# XC6-Starter Board (Manufacturer unknown)
+###################################
+
+###################################
+# Clock and reset
+###################################
+NET "clk" LOC = P21 ; 
+# NET "reset" 
+###################################
+# Buttons and switches
+###################################
+# 3 Pushbuttons
+NET "btn<2>" LOC = P133;
+NET "btn<1>" LOC = P132;
+NET "btn<0>" LOC = P131;
+# 8 Slide switches
+NET "sw<7>" LOC = P134;
+NET "sw<6>" LOC = P137;
+NET "sw<5>" LOC = P138;
+NET "sw<4>" LOC = P139;
+NET "sw<3>" LOC = P140;
+NET "sw<2>" LOC = P141;
+NET "sw<1>" LOC = P142;
+NET "sw<0>" LOC = P143;
+
+###################################
+# RS232
+###################################
+NET "rx" LOC = P23 | DRIVE=8 | SLEW=SLOW;
+NET "tx" LOC = P22 | DRIVE=8 | SLEW=SLOW;
+
+###################################
+# 4 digit t-mux 7-seg LED
+###################################
+#digit enable
+NET "an<3>" LOC = P112;
+NET "an<2>" LOC = P111;
+NET "an<1>" LOC = P127;
+NET "an<0>" LOC = P126;
+#7-segment led segments
+NET "sseg<7>" LOC = P123; #dot
+NET "sseg<6>" LOC = P116; #a
+NET "sseg<5>" LOC = P114; #b
+NET "sseg<4>" LOC = P117; #c
+NET "sseg<3>" LOC = P118; #d
+NET "sseg<2>" LOC = P119; #e
+NET "sseg<1>" LOC = P121; #f
+NET "sseg<0>" LOC = P115; #g
+#Non-7seg leds
+NET "colon_led" LOC = P120; # colon led
+NET "deg_led" LOC = P126; # degree led
+
+###################################
+# 8 discrete LED
+###################################
+NET "led<7>" LOC = P61;
+NET "led<6>" LOC = P59;
+NET "led<5>" LOC = P58;
+NET "led<4>" LOC = P57;
+NET "led<3>" LOC = P47;
+NET "led<2>" LOC = P46;
+NET "led<1>" LOC = P45;
+NET "led<0>" LOC = P44;
+
+###################################
+# VGA outputs
+###################################
+NET "r<3>" LOC = P11 | DRIVE=8 | SLEW = FAST;
+NET "r<2>" LOC = P12 | DRIVE=8 | SLEW = FAST;
+NET "r<1>" LOC = P14 | DRIVE=8 | SLEW = FAST;
+NET "r<0>" LOC = P15 | DRIVE=8 | SLEW = FAST;
+NET "g<3>" LOC = P7 | DRIVE=8 | SLEW = FAST;
+NET "g<2>" LOC = P8 | DRIVE=8 | SLEW = FAST;
+NET "g<1>" LOC = P9 | DRIVE=8 | SLEW = FAST;
+NET "g<0>" LOC = P10 | DRIVE=8 | SLEW = FAST;
+NET "b<3>" LOC = P1 | DRIVE=8 | SLEW = FAST;
+NET "b<2>" LOC = P2 | DRIVE=8 | SLEW = FAST;
+NET "b<1>" LOC = P5 | DRIVE=8 | SLEW = FAST;
+NET "b<0>" LOC = P6 | DRIVE=8 | SLEW = FAST;
+NET "vsync" LOC = P17 | DRIVE=8 | SLEW = FAST;
+NET "hsync" LOC = P16 | DRIVE=8 | SLEW = FAST;
+
+###################################
+# PS2 port
+###################################
+NET "ps2c" LOC=P24 | IOSTANDARD = LVCMOS33 | SLEW=FAST;
+NET "ps2d" LOC=P26 | IOSTANDARD = LVCMOS33 | SLEW=FAST;
+
+###################################
+# Timing constraint of 50-MHz
+# Clock name : clk
+###################################
+NET "clk" TNM_NET = "clk";
+TIMESPEC "TS_clk" = PERIOD "clk" 40 ns HIGH 50%;
+
+
+
+
+
+
+
+
+
+
+
+

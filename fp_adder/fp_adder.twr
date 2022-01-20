@@ -1,0 +1,1741 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml fp_adder.twx fp_adder.ncd -o fp_adder.twr fp_adder.pcf
+
+Design file:              fp_adder.ncd
+Physical constraint file: fp_adder.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock exp1<0> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        26.984(F)|      SLOW  |         8.510(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.686(F)|      SLOW  |         8.357(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.255(F)|      SLOW  |         8.135(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.301(F)|      SLOW  |         8.112(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        26.915(F)|      SLOW  |         8.541(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.108(F)|      SLOW  |         7.473(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.354(F)|      SLOW  |         8.178(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.213(F)|      SLOW  |         7.549(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.099(F)|      SLOW  |         7.446(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        24.947(F)|      SLOW  |         7.385(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.363(F)|      SLOW  |         7.646(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.711(F)|      SLOW  |         8.412(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock exp1<1> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.132(F)|      SLOW  |         8.796(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.834(F)|      SLOW  |         8.643(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.403(F)|      SLOW  |         8.421(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.449(F)|      SLOW  |         8.398(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        27.063(F)|      SLOW  |         8.827(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.256(F)|      SLOW  |         7.759(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.502(F)|      SLOW  |         8.464(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.361(F)|      SLOW  |         7.835(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.247(F)|      SLOW  |         7.732(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.095(F)|      SLOW  |         7.671(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.511(F)|      SLOW  |         7.932(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.859(F)|      SLOW  |         8.698(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock exp1<2> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        25.691(F)|      SLOW  |         8.844(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        25.393(F)|      SLOW  |         8.691(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        24.962(F)|      SLOW  |         8.469(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        25.008(F)|      SLOW  |         8.446(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        25.622(F)|      SLOW  |         8.875(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        23.815(F)|      SLOW  |         7.807(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        25.061(F)|      SLOW  |         8.512(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        23.920(F)|      SLOW  |         7.883(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        23.806(F)|      SLOW  |         7.780(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        23.654(F)|      SLOW  |         7.719(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        24.070(F)|      SLOW  |         7.980(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        25.418(F)|      SLOW  |         8.746(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock exp1<3> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        25.639(F)|      SLOW  |         8.637(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        25.341(F)|      SLOW  |         8.484(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        24.910(F)|      SLOW  |         8.262(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        24.956(F)|      SLOW  |         8.239(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        25.570(F)|      SLOW  |         8.668(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        23.763(F)|      SLOW  |         7.600(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        25.009(F)|      SLOW  |         8.305(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        23.868(F)|      SLOW  |         7.676(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        23.754(F)|      SLOW  |         7.573(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        23.602(F)|      SLOW  |         7.512(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        24.018(F)|      SLOW  |         7.773(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        25.366(F)|      SLOW  |         8.539(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock exp2<0> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        26.799(F)|      SLOW  |         8.846(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.501(F)|      SLOW  |         8.693(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.070(F)|      SLOW  |         8.471(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.116(F)|      SLOW  |         8.448(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        26.730(F)|      SLOW  |         8.877(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        24.923(F)|      SLOW  |         7.809(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.169(F)|      SLOW  |         8.514(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.028(F)|      SLOW  |         7.885(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        24.914(F)|      SLOW  |         7.782(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        24.762(F)|      SLOW  |         7.721(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.178(F)|      SLOW  |         7.982(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.526(F)|      SLOW  |         8.748(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock exp2<1> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        26.713(F)|      SLOW  |         8.627(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.415(F)|      SLOW  |         8.474(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        25.984(F)|      SLOW  |         8.252(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.030(F)|      SLOW  |         8.229(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        26.644(F)|      SLOW  |         8.658(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        24.837(F)|      SLOW  |         7.590(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.083(F)|      SLOW  |         8.295(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        24.942(F)|      SLOW  |         7.666(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        24.828(F)|      SLOW  |         7.563(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        24.676(F)|      SLOW  |         7.502(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.092(F)|      SLOW  |         7.763(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.440(F)|      SLOW  |         8.529(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock exp2<2> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        26.066(F)|      SLOW  |         8.777(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        25.768(F)|      SLOW  |         8.624(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        25.337(F)|      SLOW  |         8.402(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        25.383(F)|      SLOW  |         8.379(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        25.997(F)|      SLOW  |         8.808(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        24.190(F)|      SLOW  |         7.740(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        25.436(F)|      SLOW  |         8.445(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        24.295(F)|      SLOW  |         7.816(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        24.181(F)|      SLOW  |         7.713(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        24.029(F)|      SLOW  |         7.652(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        24.445(F)|      SLOW  |         7.913(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        25.793(F)|      SLOW  |         8.679(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock exp2<3> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        25.417(F)|      SLOW  |         8.733(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        25.119(F)|      SLOW  |         8.580(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        24.688(F)|      SLOW  |         8.358(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        24.734(F)|      SLOW  |         8.335(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        25.348(F)|      SLOW  |         8.764(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        23.541(F)|      SLOW  |         7.696(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        24.787(F)|      SLOW  |         8.401(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        23.646(F)|      SLOW  |         7.772(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        23.532(F)|      SLOW  |         7.669(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        23.380(F)|      SLOW  |         7.608(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        23.796(F)|      SLOW  |         7.869(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        25.144(F)|      SLOW  |         8.635(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac1<0> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.192(F)|      SLOW  |         9.049(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.894(F)|      SLOW  |         8.896(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.463(F)|      SLOW  |         8.674(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.509(F)|      SLOW  |         8.651(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        27.123(F)|      SLOW  |         9.080(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.316(F)|      SLOW  |         8.012(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.562(F)|      SLOW  |         8.717(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.421(F)|      SLOW  |         8.088(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.307(F)|      SLOW  |         7.985(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.155(F)|      SLOW  |         7.924(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.571(F)|      SLOW  |         8.185(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.919(F)|      SLOW  |         8.951(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac1<1> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.477(F)|      SLOW  |         9.528(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        27.179(F)|      SLOW  |         9.375(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.748(F)|      SLOW  |         9.153(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.794(F)|      SLOW  |         9.130(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        27.408(F)|      SLOW  |         9.559(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.601(F)|      SLOW  |         8.491(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.847(F)|      SLOW  |         9.196(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.706(F)|      SLOW  |         8.567(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.592(F)|      SLOW  |         8.464(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.440(F)|      SLOW  |         8.403(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.856(F)|      SLOW  |         8.664(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        27.204(F)|      SLOW  |         9.430(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac1<2> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.832(F)|      SLOW  |         9.077(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        27.534(F)|      SLOW  |         8.924(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        27.103(F)|      SLOW  |         8.702(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        27.149(F)|      SLOW  |         8.679(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        27.763(F)|      SLOW  |         9.108(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.956(F)|      SLOW  |         8.040(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        27.202(F)|      SLOW  |         8.745(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        26.061(F)|      SLOW  |         8.116(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.947(F)|      SLOW  |         8.013(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.795(F)|      SLOW  |         7.952(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        26.211(F)|      SLOW  |         8.213(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        27.559(F)|      SLOW  |         8.979(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac1<3> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.412(F)|      SLOW  |         8.724(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        27.114(F)|      SLOW  |         8.571(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.683(F)|      SLOW  |         8.349(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.729(F)|      SLOW  |         8.326(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        27.343(F)|      SLOW  |         8.755(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.536(F)|      SLOW  |         7.687(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.782(F)|      SLOW  |         8.392(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.641(F)|      SLOW  |         7.763(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.527(F)|      SLOW  |         7.660(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.375(F)|      SLOW  |         7.599(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.791(F)|      SLOW  |         7.860(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        27.139(F)|      SLOW  |         8.626(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac1<4> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.971(F)|      SLOW  |         9.507(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        27.673(F)|      SLOW  |         9.354(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        27.242(F)|      SLOW  |         9.132(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        27.288(F)|      SLOW  |         9.109(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        27.902(F)|      SLOW  |         9.538(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        26.095(F)|      SLOW  |         8.470(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        27.341(F)|      SLOW  |         9.175(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        26.200(F)|      SLOW  |         8.546(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        26.086(F)|      SLOW  |         8.443(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.934(F)|      SLOW  |         8.382(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        26.350(F)|      SLOW  |         8.643(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        27.698(F)|      SLOW  |         9.409(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac1<5> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.363(F)|      SLOW  |         8.432(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        27.065(F)|      SLOW  |         8.279(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.634(F)|      SLOW  |         8.057(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.680(F)|      SLOW  |         8.034(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        27.294(F)|      SLOW  |         8.463(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.487(F)|      SLOW  |         7.395(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.733(F)|      SLOW  |         8.100(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.592(F)|      SLOW  |         7.471(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.478(F)|      SLOW  |         7.368(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.326(F)|      SLOW  |         7.307(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.742(F)|      SLOW  |         7.568(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        27.090(F)|      SLOW  |         8.334(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac1<6> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        26.888(F)|      SLOW  |         9.223(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.590(F)|      SLOW  |         9.070(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.159(F)|      SLOW  |         8.848(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.205(F)|      SLOW  |         8.825(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        26.819(F)|      SLOW  |         9.254(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.012(F)|      SLOW  |         8.186(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.258(F)|      SLOW  |         8.891(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.117(F)|      SLOW  |         8.262(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.003(F)|      SLOW  |         8.159(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        24.851(F)|      SLOW  |         8.098(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.267(F)|      SLOW  |         8.359(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.615(F)|      SLOW  |         9.125(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac1<7> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        26.929(F)|      SLOW  |         8.528(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.631(F)|      SLOW  |         8.375(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.200(F)|      SLOW  |         8.153(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.246(F)|      SLOW  |         8.130(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        26.860(F)|      SLOW  |         8.559(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.053(F)|      SLOW  |         7.491(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.299(F)|      SLOW  |         8.196(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.158(F)|      SLOW  |         7.567(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.044(F)|      SLOW  |         7.464(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        24.892(F)|      SLOW  |         7.403(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.308(F)|      SLOW  |         7.664(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.656(F)|      SLOW  |         8.430(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac2<0> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.440(F)|      SLOW  |         9.604(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        27.142(F)|      SLOW  |         9.451(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.711(F)|      SLOW  |         9.229(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.757(F)|      SLOW  |         9.206(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        27.371(F)|      SLOW  |         9.635(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.564(F)|      SLOW  |         8.567(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.810(F)|      SLOW  |         9.272(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.669(F)|      SLOW  |         8.643(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.555(F)|      SLOW  |         8.540(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.403(F)|      SLOW  |         8.479(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.819(F)|      SLOW  |         8.740(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        27.167(F)|      SLOW  |         9.506(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac2<1> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        26.536(F)|      SLOW  |         8.970(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.238(F)|      SLOW  |         8.817(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        25.807(F)|      SLOW  |         8.595(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        25.853(F)|      SLOW  |         8.572(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        26.467(F)|      SLOW  |         9.001(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        24.660(F)|      SLOW  |         7.933(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        25.906(F)|      SLOW  |         8.638(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        24.765(F)|      SLOW  |         8.009(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        24.651(F)|      SLOW  |         7.906(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        24.499(F)|      SLOW  |         7.845(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        24.915(F)|      SLOW  |         8.106(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.263(F)|      SLOW  |         8.872(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac2<2> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.067(F)|      SLOW  |         9.216(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.769(F)|      SLOW  |         9.063(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.338(F)|      SLOW  |         8.841(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.384(F)|      SLOW  |         8.818(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        26.998(F)|      SLOW  |         9.247(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.191(F)|      SLOW  |         8.179(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.437(F)|      SLOW  |         8.884(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.296(F)|      SLOW  |         8.255(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.182(F)|      SLOW  |         8.152(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.030(F)|      SLOW  |         8.091(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.446(F)|      SLOW  |         8.352(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.794(F)|      SLOW  |         9.118(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac2<3> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.200(F)|      SLOW  |         9.010(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.902(F)|      SLOW  |         8.857(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.471(F)|      SLOW  |         8.635(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.517(F)|      SLOW  |         8.612(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        27.131(F)|      SLOW  |         9.041(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.324(F)|      SLOW  |         7.973(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.570(F)|      SLOW  |         8.678(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.429(F)|      SLOW  |         8.049(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.315(F)|      SLOW  |         7.946(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.163(F)|      SLOW  |         7.885(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.579(F)|      SLOW  |         8.146(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.927(F)|      SLOW  |         8.912(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac2<4> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        27.296(F)|      SLOW  |         8.967(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.998(F)|      SLOW  |         8.814(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.567(F)|      SLOW  |         8.592(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.613(F)|      SLOW  |         8.569(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        27.227(F)|      SLOW  |         8.998(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        25.420(F)|      SLOW  |         7.930(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.666(F)|      SLOW  |         8.635(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.525(F)|      SLOW  |         8.006(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        25.411(F)|      SLOW  |         7.903(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        25.259(F)|      SLOW  |         7.842(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.675(F)|      SLOW  |         8.103(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        27.023(F)|      SLOW  |         8.869(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac2<5> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        26.859(F)|      SLOW  |         9.093(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.561(F)|      SLOW  |         8.940(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.130(F)|      SLOW  |         8.718(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.176(F)|      SLOW  |         8.695(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        26.790(F)|      SLOW  |         9.124(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        24.983(F)|      SLOW  |         8.056(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.229(F)|      SLOW  |         8.761(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        25.088(F)|      SLOW  |         8.132(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        24.974(F)|      SLOW  |         8.029(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        24.822(F)|      SLOW  |         7.968(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.238(F)|      SLOW  |         8.229(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.586(F)|      SLOW  |         8.995(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac2<6> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        26.760(F)|      SLOW  |         9.249(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.462(F)|      SLOW  |         9.096(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        26.031(F)|      SLOW  |         8.874(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        26.077(F)|      SLOW  |         8.851(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        26.691(F)|      SLOW  |         9.280(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        24.884(F)|      SLOW  |         8.212(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.130(F)|      SLOW  |         8.917(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        24.989(F)|      SLOW  |         8.288(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        24.875(F)|      SLOW  |         8.185(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        24.723(F)|      SLOW  |         8.124(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.139(F)|      SLOW  |         8.385(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.487(F)|      SLOW  |         9.151(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock frac2<7> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        26.634(F)|      SLOW  |         8.941(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        26.336(F)|      SLOW  |         8.788(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        25.905(F)|      SLOW  |         8.566(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        25.951(F)|      SLOW  |         8.543(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        26.565(F)|      SLOW  |         8.972(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        24.758(F)|      SLOW  |         7.904(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        26.004(F)|      SLOW  |         8.609(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        24.863(F)|      SLOW  |         7.980(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        24.749(F)|      SLOW  |         7.877(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        24.597(F)|      SLOW  |         7.816(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        25.013(F)|      SLOW  |         8.077(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        26.361(F)|      SLOW  |         8.843(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock sign1 to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        21.015(F)|      SLOW  |         8.985(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        20.717(F)|      SLOW  |         8.832(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        20.286(F)|      SLOW  |         8.610(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        20.332(F)|      SLOW  |         8.587(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        20.946(F)|      SLOW  |         9.016(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        19.139(F)|      SLOW  |         7.948(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        20.385(F)|      SLOW  |         8.653(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        19.244(F)|      SLOW  |         8.024(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        19.130(F)|      SLOW  |         7.921(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        18.978(F)|      SLOW  |         7.860(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        19.394(F)|      SLOW  |         8.121(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        20.742(F)|      SLOW  |         8.887(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock sign2 to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+exp_out<0>  |        21.119(F)|      SLOW  |         8.966(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<1>  |        20.821(F)|      SLOW  |         8.813(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<2>  |        20.390(F)|      SLOW  |         8.591(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+exp_out<3>  |        20.436(F)|      SLOW  |         8.568(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<0> |        21.050(F)|      SLOW  |         8.997(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<1> |        19.243(F)|      SLOW  |         7.929(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<2> |        20.489(F)|      SLOW  |         8.634(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<3> |        19.348(F)|      SLOW  |         8.005(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<4> |        19.234(F)|      SLOW  |         7.902(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<5> |        19.082(F)|      SLOW  |         7.841(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<6> |        19.498(F)|      SLOW  |         8.102(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+frac_out<7> |        20.846(F)|      SLOW  |         8.868(F)|      FAST  |GND_1_o_exp2[3]_OR_2_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock to Setup on destination clock exp1<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.579|    8.579|
+exp1<1>        |         |         |    8.727|    8.727|
+exp1<2>        |         |         |    7.286|    7.286|
+exp1<3>        |         |         |    7.234|    7.234|
+exp2<0>        |         |         |    8.394|    8.394|
+exp2<1>        |         |         |    8.308|    8.308|
+exp2<2>        |         |         |    7.661|    7.661|
+exp2<3>        |         |         |    7.012|    7.012|
+frac1<0>       |         |         |    8.787|    8.787|
+frac1<1>       |         |         |    9.072|    9.072|
+frac1<2>       |         |         |    9.427|    9.427|
+frac1<3>       |         |         |    9.007|    9.007|
+frac1<4>       |         |         |    9.566|    9.566|
+frac1<5>       |         |         |    8.958|    8.958|
+frac1<6>       |         |         |    8.483|    8.483|
+frac1<7>       |         |         |    8.524|    8.524|
+frac2<0>       |         |         |    9.035|    9.035|
+frac2<1>       |         |         |    8.131|    8.131|
+frac2<2>       |         |         |    8.662|    8.662|
+frac2<3>       |         |         |    8.795|    8.795|
+frac2<4>       |         |         |    8.891|    8.891|
+frac2<5>       |         |         |    8.454|    8.454|
+frac2<6>       |         |         |    8.355|    8.355|
+frac2<7>       |         |         |    8.229|    8.229|
+sign1          |         |         |    2.610|    2.610|
+sign2          |         |         |    2.714|    2.714|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock exp1<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.116|    8.116|
+exp1<1>        |         |         |    8.264|    8.264|
+exp1<2>        |         |         |    6.823|    6.823|
+exp1<3>        |         |         |    6.771|    6.771|
+exp2<0>        |         |         |    7.931|    7.931|
+exp2<1>        |         |         |    7.845|    7.845|
+exp2<2>        |         |         |    7.198|    7.198|
+exp2<3>        |         |         |    6.549|    6.549|
+frac1<0>       |         |         |    8.324|    8.324|
+frac1<1>       |         |         |    8.609|    8.609|
+frac1<2>       |         |         |    8.964|    8.964|
+frac1<3>       |         |         |    8.544|    8.544|
+frac1<4>       |         |         |    9.103|    9.103|
+frac1<5>       |         |         |    8.495|    8.495|
+frac1<6>       |         |         |    8.020|    8.020|
+frac1<7>       |         |         |    8.061|    8.061|
+frac2<0>       |         |         |    8.572|    8.572|
+frac2<1>       |         |         |    7.668|    7.668|
+frac2<2>       |         |         |    8.199|    8.199|
+frac2<3>       |         |         |    8.332|    8.332|
+frac2<4>       |         |         |    8.428|    8.428|
+frac2<5>       |         |         |    7.991|    7.991|
+frac2<6>       |         |         |    7.892|    7.892|
+frac2<7>       |         |         |    7.766|    7.766|
+sign1          |         |         |    2.147|    2.147|
+sign2          |         |         |    2.251|    2.251|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock exp1<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.091|    8.091|
+exp1<1>        |         |         |    8.239|    8.239|
+exp1<2>        |         |         |    6.798|    6.798|
+exp1<3>        |         |         |    6.746|    6.746|
+exp2<0>        |         |         |    7.906|    7.906|
+exp2<1>        |         |         |    7.820|    7.820|
+exp2<2>        |         |         |    7.173|    7.173|
+exp2<3>        |         |         |    6.524|    6.524|
+frac1<0>       |         |         |    8.299|    8.299|
+frac1<1>       |         |         |    8.584|    8.584|
+frac1<2>       |         |         |    8.939|    8.939|
+frac1<3>       |         |         |    8.519|    8.519|
+frac1<4>       |         |         |    9.078|    9.078|
+frac1<5>       |         |         |    8.470|    8.470|
+frac1<6>       |         |         |    7.995|    7.995|
+frac1<7>       |         |         |    8.036|    8.036|
+frac2<0>       |         |         |    8.547|    8.547|
+frac2<1>       |         |         |    7.643|    7.643|
+frac2<2>       |         |         |    8.174|    8.174|
+frac2<3>       |         |         |    8.307|    8.307|
+frac2<4>       |         |         |    8.403|    8.403|
+frac2<5>       |         |         |    7.966|    7.966|
+frac2<6>       |         |         |    7.867|    7.867|
+frac2<7>       |         |         |    7.741|    7.741|
+sign1          |         |         |    2.122|    2.122|
+sign2          |         |         |    2.226|    2.226|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock exp1<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.492|    8.492|
+exp1<1>        |         |         |    8.640|    8.640|
+exp1<2>        |         |         |    7.199|    7.199|
+exp1<3>        |         |         |    7.147|    7.147|
+exp2<0>        |         |         |    8.307|    8.307|
+exp2<1>        |         |         |    8.221|    8.221|
+exp2<2>        |         |         |    7.574|    7.574|
+exp2<3>        |         |         |    6.925|    6.925|
+frac1<0>       |         |         |    8.700|    8.700|
+frac1<1>       |         |         |    8.985|    8.985|
+frac1<2>       |         |         |    9.340|    9.340|
+frac1<3>       |         |         |    8.920|    8.920|
+frac1<4>       |         |         |    9.479|    9.479|
+frac1<5>       |         |         |    8.871|    8.871|
+frac1<6>       |         |         |    8.396|    8.396|
+frac1<7>       |         |         |    8.437|    8.437|
+frac2<0>       |         |         |    8.948|    8.948|
+frac2<1>       |         |         |    8.044|    8.044|
+frac2<2>       |         |         |    8.575|    8.575|
+frac2<3>       |         |         |    8.708|    8.708|
+frac2<4>       |         |         |    8.804|    8.804|
+frac2<5>       |         |         |    8.367|    8.367|
+frac2<6>       |         |         |    8.268|    8.268|
+frac2<7>       |         |         |    8.142|    8.142|
+sign1          |         |         |    2.523|    2.523|
+sign2          |         |         |    2.627|    2.627|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock exp2<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.995|    7.995|
+exp1<1>        |         |         |    8.143|    8.143|
+exp1<2>        |         |         |    6.702|    6.702|
+exp1<3>        |         |         |    6.650|    6.650|
+exp2<0>        |         |         |    7.810|    7.810|
+exp2<1>        |         |         |    7.724|    7.724|
+exp2<2>        |         |         |    7.077|    7.077|
+exp2<3>        |         |         |    6.428|    6.428|
+frac1<0>       |         |         |    8.203|    8.203|
+frac1<1>       |         |         |    8.488|    8.488|
+frac1<2>       |         |         |    8.843|    8.843|
+frac1<3>       |         |         |    8.423|    8.423|
+frac1<4>       |         |         |    8.982|    8.982|
+frac1<5>       |         |         |    8.374|    8.374|
+frac1<6>       |         |         |    7.899|    7.899|
+frac1<7>       |         |         |    7.940|    7.940|
+frac2<0>       |         |         |    8.451|    8.451|
+frac2<1>       |         |         |    7.547|    7.547|
+frac2<2>       |         |         |    8.078|    8.078|
+frac2<3>       |         |         |    8.211|    8.211|
+frac2<4>       |         |         |    8.307|    8.307|
+frac2<5>       |         |         |    7.870|    7.870|
+frac2<6>       |         |         |    7.771|    7.771|
+frac2<7>       |         |         |    7.645|    7.645|
+sign1          |         |         |    2.026|    2.026|
+sign2          |         |         |    2.130|    2.130|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock exp2<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.408|    8.408|
+exp1<1>        |         |         |    8.556|    8.556|
+exp1<2>        |         |         |    7.115|    7.115|
+exp1<3>        |         |         |    7.063|    7.063|
+exp2<0>        |         |         |    8.223|    8.223|
+exp2<1>        |         |         |    8.137|    8.137|
+exp2<2>        |         |         |    7.490|    7.490|
+exp2<3>        |         |         |    6.841|    6.841|
+frac1<0>       |         |         |    8.616|    8.616|
+frac1<1>       |         |         |    8.901|    8.901|
+frac1<2>       |         |         |    9.256|    9.256|
+frac1<3>       |         |         |    8.836|    8.836|
+frac1<4>       |         |         |    9.395|    9.395|
+frac1<5>       |         |         |    8.787|    8.787|
+frac1<6>       |         |         |    8.312|    8.312|
+frac1<7>       |         |         |    8.353|    8.353|
+frac2<0>       |         |         |    8.864|    8.864|
+frac2<1>       |         |         |    7.960|    7.960|
+frac2<2>       |         |         |    8.491|    8.491|
+frac2<3>       |         |         |    8.624|    8.624|
+frac2<4>       |         |         |    8.720|    8.720|
+frac2<5>       |         |         |    8.283|    8.283|
+frac2<6>       |         |         |    8.184|    8.184|
+frac2<7>       |         |         |    8.058|    8.058|
+sign1          |         |         |    2.439|    2.439|
+sign2          |         |         |    2.543|    2.543|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock exp2<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.224|    8.224|
+exp1<1>        |         |         |    8.372|    8.372|
+exp1<2>        |         |         |    6.931|    6.931|
+exp1<3>        |         |         |    6.879|    6.879|
+exp2<0>        |         |         |    8.039|    8.039|
+exp2<1>        |         |         |    7.953|    7.953|
+exp2<2>        |         |         |    7.306|    7.306|
+exp2<3>        |         |         |    6.657|    6.657|
+frac1<0>       |         |         |    8.432|    8.432|
+frac1<1>       |         |         |    8.717|    8.717|
+frac1<2>       |         |         |    9.072|    9.072|
+frac1<3>       |         |         |    8.652|    8.652|
+frac1<4>       |         |         |    9.211|    9.211|
+frac1<5>       |         |         |    8.603|    8.603|
+frac1<6>       |         |         |    8.128|    8.128|
+frac1<7>       |         |         |    8.169|    8.169|
+frac2<0>       |         |         |    8.680|    8.680|
+frac2<1>       |         |         |    7.776|    7.776|
+frac2<2>       |         |         |    8.307|    8.307|
+frac2<3>       |         |         |    8.440|    8.440|
+frac2<4>       |         |         |    8.536|    8.536|
+frac2<5>       |         |         |    8.099|    8.099|
+frac2<6>       |         |         |    8.000|    8.000|
+frac2<7>       |         |         |    7.874|    7.874|
+sign1          |         |         |    2.255|    2.255|
+sign2          |         |         |    2.359|    2.359|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock exp2<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.220|    8.220|
+exp1<1>        |         |         |    8.368|    8.368|
+exp1<2>        |         |         |    6.927|    6.927|
+exp1<3>        |         |         |    6.875|    6.875|
+exp2<0>        |         |         |    8.035|    8.035|
+exp2<1>        |         |         |    7.949|    7.949|
+exp2<2>        |         |         |    7.302|    7.302|
+exp2<3>        |         |         |    6.653|    6.653|
+frac1<0>       |         |         |    8.428|    8.428|
+frac1<1>       |         |         |    8.713|    8.713|
+frac1<2>       |         |         |    9.068|    9.068|
+frac1<3>       |         |         |    8.648|    8.648|
+frac1<4>       |         |         |    9.207|    9.207|
+frac1<5>       |         |         |    8.599|    8.599|
+frac1<6>       |         |         |    8.124|    8.124|
+frac1<7>       |         |         |    8.165|    8.165|
+frac2<0>       |         |         |    8.676|    8.676|
+frac2<1>       |         |         |    7.772|    7.772|
+frac2<2>       |         |         |    8.303|    8.303|
+frac2<3>       |         |         |    8.436|    8.436|
+frac2<4>       |         |         |    8.532|    8.532|
+frac2<5>       |         |         |    8.095|    8.095|
+frac2<6>       |         |         |    7.996|    7.996|
+frac2<7>       |         |         |    7.870|    7.870|
+sign1          |         |         |    2.251|    2.251|
+sign2          |         |         |    2.355|    2.355|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac1<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.731|    7.731|
+exp1<1>        |         |         |    7.879|    7.879|
+exp1<2>        |         |         |    6.438|    6.438|
+exp1<3>        |         |         |    6.386|    6.386|
+exp2<0>        |         |         |    7.546|    7.546|
+exp2<1>        |         |         |    7.460|    7.460|
+exp2<2>        |         |         |    6.813|    6.813|
+exp2<3>        |         |         |    6.164|    6.164|
+frac1<0>       |         |         |    7.939|    7.939|
+frac1<1>       |         |         |    8.224|    8.224|
+frac1<2>       |         |         |    8.579|    8.579|
+frac1<3>       |         |         |    8.159|    8.159|
+frac1<4>       |         |         |    8.718|    8.718|
+frac1<5>       |         |         |    8.110|    8.110|
+frac1<6>       |         |         |    7.635|    7.635|
+frac1<7>       |         |         |    7.676|    7.676|
+frac2<0>       |         |         |    8.187|    8.187|
+frac2<1>       |         |         |    7.283|    7.283|
+frac2<2>       |         |         |    7.814|    7.814|
+frac2<3>       |         |         |    7.947|    7.947|
+frac2<4>       |         |         |    8.043|    8.043|
+frac2<5>       |         |         |    7.606|    7.606|
+frac2<6>       |         |         |    7.507|    7.507|
+frac2<7>       |         |         |    7.381|    7.381|
+sign1          |         |         |    1.762|    1.762|
+sign2          |         |         |    1.866|    1.866|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac1<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    6.935|    6.935|
+exp1<1>        |         |         |    7.083|    7.083|
+exp1<2>        |         |         |    5.642|    5.642|
+exp1<3>        |         |         |    5.590|    5.590|
+exp2<0>        |         |         |    6.750|    6.750|
+exp2<1>        |         |         |    6.664|    6.664|
+exp2<2>        |         |         |    6.017|    6.017|
+exp2<3>        |         |         |    5.368|    5.368|
+frac1<0>       |         |         |    7.143|    7.143|
+frac1<1>       |         |         |    7.428|    7.428|
+frac1<2>       |         |         |    7.783|    7.783|
+frac1<3>       |         |         |    7.363|    7.363|
+frac1<4>       |         |         |    7.922|    7.922|
+frac1<5>       |         |         |    7.314|    7.314|
+frac1<6>       |         |         |    6.839|    6.839|
+frac1<7>       |         |         |    6.880|    6.880|
+frac2<0>       |         |         |    7.391|    7.391|
+frac2<1>       |         |         |    6.487|    6.487|
+frac2<2>       |         |         |    7.018|    7.018|
+frac2<3>       |         |         |    7.151|    7.151|
+frac2<4>       |         |         |    7.247|    7.247|
+frac2<5>       |         |         |    6.810|    6.810|
+frac2<6>       |         |         |    6.711|    6.711|
+frac2<7>       |         |         |    6.585|    6.585|
+sign1          |         |         |    0.966|    0.966|
+sign2          |         |         |    1.070|    1.070|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac1<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.746|    7.746|
+exp1<1>        |         |         |    7.894|    7.894|
+exp1<2>        |         |         |    6.453|    6.453|
+exp1<3>        |         |         |    6.401|    6.401|
+exp2<0>        |         |         |    7.561|    7.561|
+exp2<1>        |         |         |    7.475|    7.475|
+exp2<2>        |         |         |    6.828|    6.828|
+exp2<3>        |         |         |    6.179|    6.179|
+frac1<0>       |         |         |    7.954|    7.954|
+frac1<1>       |         |         |    8.239|    8.239|
+frac1<2>       |         |         |    8.594|    8.594|
+frac1<3>       |         |         |    8.174|    8.174|
+frac1<4>       |         |         |    8.733|    8.733|
+frac1<5>       |         |         |    8.125|    8.125|
+frac1<6>       |         |         |    7.650|    7.650|
+frac1<7>       |         |         |    7.691|    7.691|
+frac2<0>       |         |         |    8.202|    8.202|
+frac2<1>       |         |         |    7.298|    7.298|
+frac2<2>       |         |         |    7.829|    7.829|
+frac2<3>       |         |         |    7.962|    7.962|
+frac2<4>       |         |         |    8.058|    8.058|
+frac2<5>       |         |         |    7.621|    7.621|
+frac2<6>       |         |         |    7.522|    7.522|
+frac2<7>       |         |         |    7.396|    7.396|
+sign1          |         |         |    1.777|    1.777|
+sign2          |         |         |    1.881|    1.881|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac1<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.432|    8.432|
+exp1<1>        |         |         |    8.580|    8.580|
+exp1<2>        |         |         |    7.139|    7.139|
+exp1<3>        |         |         |    7.087|    7.087|
+exp2<0>        |         |         |    8.247|    8.247|
+exp2<1>        |         |         |    8.161|    8.161|
+exp2<2>        |         |         |    7.514|    7.514|
+exp2<3>        |         |         |    6.865|    6.865|
+frac1<0>       |         |         |    8.640|    8.640|
+frac1<1>       |         |         |    8.925|    8.925|
+frac1<2>       |         |         |    9.280|    9.280|
+frac1<3>       |         |         |    8.860|    8.860|
+frac1<4>       |         |         |    9.419|    9.419|
+frac1<5>       |         |         |    8.811|    8.811|
+frac1<6>       |         |         |    8.336|    8.336|
+frac1<7>       |         |         |    8.377|    8.377|
+frac2<0>       |         |         |    8.888|    8.888|
+frac2<1>       |         |         |    7.984|    7.984|
+frac2<2>       |         |         |    8.515|    8.515|
+frac2<3>       |         |         |    8.648|    8.648|
+frac2<4>       |         |         |    8.744|    8.744|
+frac2<5>       |         |         |    8.307|    8.307|
+frac2<6>       |         |         |    8.208|    8.208|
+frac2<7>       |         |         |    8.082|    8.082|
+sign1          |         |         |    2.463|    2.463|
+sign2          |         |         |    2.567|    2.567|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac1<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.161|    7.161|
+exp1<1>        |         |         |    7.309|    7.309|
+exp1<2>        |         |         |    5.868|    5.868|
+exp1<3>        |         |         |    5.816|    5.816|
+exp2<0>        |         |         |    6.976|    6.976|
+exp2<1>        |         |         |    6.890|    6.890|
+exp2<2>        |         |         |    6.243|    6.243|
+exp2<3>        |         |         |    5.594|    5.594|
+frac1<0>       |         |         |    7.369|    7.369|
+frac1<1>       |         |         |    7.654|    7.654|
+frac1<2>       |         |         |    8.009|    8.009|
+frac1<3>       |         |         |    7.589|    7.589|
+frac1<4>       |         |         |    8.148|    8.148|
+frac1<5>       |         |         |    7.540|    7.540|
+frac1<6>       |         |         |    7.065|    7.065|
+frac1<7>       |         |         |    7.106|    7.106|
+frac2<0>       |         |         |    7.617|    7.617|
+frac2<1>       |         |         |    6.713|    6.713|
+frac2<2>       |         |         |    7.244|    7.244|
+frac2<3>       |         |         |    7.377|    7.377|
+frac2<4>       |         |         |    7.473|    7.473|
+frac2<5>       |         |         |    7.036|    7.036|
+frac2<6>       |         |         |    6.937|    6.937|
+frac2<7>       |         |         |    6.811|    6.811|
+sign1          |         |         |    1.192|    1.192|
+sign2          |         |         |    1.296|    1.296|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac1<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.718|    8.718|
+exp1<1>        |         |         |    8.866|    8.866|
+exp1<2>        |         |         |    7.425|    7.425|
+exp1<3>        |         |         |    7.373|    7.373|
+exp2<0>        |         |         |    8.533|    8.533|
+exp2<1>        |         |         |    8.447|    8.447|
+exp2<2>        |         |         |    7.800|    7.800|
+exp2<3>        |         |         |    7.151|    7.151|
+frac1<0>       |         |         |    8.926|    8.926|
+frac1<1>       |         |         |    9.211|    9.211|
+frac1<2>       |         |         |    9.566|    9.566|
+frac1<3>       |         |         |    9.146|    9.146|
+frac1<4>       |         |         |    9.705|    9.705|
+frac1<5>       |         |         |    9.097|    9.097|
+frac1<6>       |         |         |    8.622|    8.622|
+frac1<7>       |         |         |    8.663|    8.663|
+frac2<0>       |         |         |    9.174|    9.174|
+frac2<1>       |         |         |    8.270|    8.270|
+frac2<2>       |         |         |    8.801|    8.801|
+frac2<3>       |         |         |    8.934|    8.934|
+frac2<4>       |         |         |    9.030|    9.030|
+frac2<5>       |         |         |    8.593|    8.593|
+frac2<6>       |         |         |    8.494|    8.494|
+frac2<7>       |         |         |    8.368|    8.368|
+sign1          |         |         |    2.749|    2.749|
+sign2          |         |         |    2.853|    2.853|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac1<6>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.415|    7.415|
+exp1<1>        |         |         |    7.563|    7.563|
+exp1<2>        |         |         |    6.122|    6.122|
+exp1<3>        |         |         |    6.070|    6.070|
+exp2<0>        |         |         |    7.230|    7.230|
+exp2<1>        |         |         |    7.144|    7.144|
+exp2<2>        |         |         |    6.497|    6.497|
+exp2<3>        |         |         |    5.848|    5.848|
+frac1<0>       |         |         |    7.623|    7.623|
+frac1<1>       |         |         |    7.908|    7.908|
+frac1<2>       |         |         |    8.263|    8.263|
+frac1<3>       |         |         |    7.843|    7.843|
+frac1<4>       |         |         |    8.402|    8.402|
+frac1<5>       |         |         |    7.794|    7.794|
+frac1<6>       |         |         |    7.319|    7.319|
+frac1<7>       |         |         |    7.360|    7.360|
+frac2<0>       |         |         |    7.871|    7.871|
+frac2<1>       |         |         |    6.967|    6.967|
+frac2<2>       |         |         |    7.498|    7.498|
+frac2<3>       |         |         |    7.631|    7.631|
+frac2<4>       |         |         |    7.727|    7.727|
+frac2<5>       |         |         |    7.290|    7.290|
+frac2<6>       |         |         |    7.191|    7.191|
+frac2<7>       |         |         |    7.065|    7.065|
+sign1          |         |         |    1.446|    1.446|
+sign2          |         |         |    1.550|    1.550|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac1<7>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.673|    8.673|
+exp1<1>        |         |         |    8.821|    8.821|
+exp1<2>        |         |         |    7.380|    7.380|
+exp1<3>        |         |         |    7.328|    7.328|
+exp2<0>        |         |         |    8.488|    8.488|
+exp2<1>        |         |         |    8.402|    8.402|
+exp2<2>        |         |         |    7.755|    7.755|
+exp2<3>        |         |         |    7.106|    7.106|
+frac1<0>       |         |         |    8.881|    8.881|
+frac1<1>       |         |         |    9.166|    9.166|
+frac1<2>       |         |         |    9.521|    9.521|
+frac1<3>       |         |         |    9.101|    9.101|
+frac1<4>       |         |         |    9.660|    9.660|
+frac1<5>       |         |         |    9.052|    9.052|
+frac1<6>       |         |         |    8.577|    8.577|
+frac1<7>       |         |         |    8.618|    8.618|
+frac2<0>       |         |         |    9.129|    9.129|
+frac2<1>       |         |         |    8.225|    8.225|
+frac2<2>       |         |         |    8.756|    8.756|
+frac2<3>       |         |         |    8.889|    8.889|
+frac2<4>       |         |         |    8.985|    8.985|
+frac2<5>       |         |         |    8.548|    8.548|
+frac2<6>       |         |         |    8.449|    8.449|
+frac2<7>       |         |         |    8.323|    8.323|
+sign1          |         |         |    2.704|    2.704|
+sign2          |         |         |    2.808|    2.808|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac2<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    6.899|    6.899|
+exp1<1>        |         |         |    7.047|    7.047|
+exp1<2>        |         |         |    5.606|    5.606|
+exp1<3>        |         |         |    5.554|    5.554|
+exp2<0>        |         |         |    6.714|    6.714|
+exp2<1>        |         |         |    6.628|    6.628|
+exp2<2>        |         |         |    5.981|    5.981|
+exp2<3>        |         |         |    5.332|    5.332|
+frac1<0>       |         |         |    7.107|    7.107|
+frac1<1>       |         |         |    7.392|    7.392|
+frac1<2>       |         |         |    7.747|    7.747|
+frac1<3>       |         |         |    7.327|    7.327|
+frac1<4>       |         |         |    7.886|    7.886|
+frac1<5>       |         |         |    7.278|    7.278|
+frac1<6>       |         |         |    6.803|    6.803|
+frac1<7>       |         |         |    6.844|    6.844|
+frac2<0>       |         |         |    7.355|    7.355|
+frac2<1>       |         |         |    6.451|    6.451|
+frac2<2>       |         |         |    6.982|    6.982|
+frac2<3>       |         |         |    7.115|    7.115|
+frac2<4>       |         |         |    7.211|    7.211|
+frac2<5>       |         |         |    6.774|    6.774|
+frac2<6>       |         |         |    6.675|    6.675|
+frac2<7>       |         |         |    6.549|    6.549|
+sign1          |         |         |    0.930|    0.930|
+sign2          |         |         |    1.034|    1.034|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac2<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.836|    7.836|
+exp1<1>        |         |         |    7.984|    7.984|
+exp1<2>        |         |         |    6.543|    6.543|
+exp1<3>        |         |         |    6.491|    6.491|
+exp2<0>        |         |         |    7.651|    7.651|
+exp2<1>        |         |         |    7.565|    7.565|
+exp2<2>        |         |         |    6.918|    6.918|
+exp2<3>        |         |         |    6.269|    6.269|
+frac1<0>       |         |         |    8.044|    8.044|
+frac1<1>       |         |         |    8.329|    8.329|
+frac1<2>       |         |         |    8.684|    8.684|
+frac1<3>       |         |         |    8.264|    8.264|
+frac1<4>       |         |         |    8.823|    8.823|
+frac1<5>       |         |         |    8.215|    8.215|
+frac1<6>       |         |         |    7.740|    7.740|
+frac1<7>       |         |         |    7.781|    7.781|
+frac2<0>       |         |         |    8.292|    8.292|
+frac2<1>       |         |         |    7.388|    7.388|
+frac2<2>       |         |         |    7.919|    7.919|
+frac2<3>       |         |         |    8.052|    8.052|
+frac2<4>       |         |         |    8.148|    8.148|
+frac2<5>       |         |         |    7.711|    7.711|
+frac2<6>       |         |         |    7.612|    7.612|
+frac2<7>       |         |         |    7.486|    7.486|
+sign1          |         |         |    1.867|    1.867|
+sign2          |         |         |    1.971|    1.971|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac2<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.390|    7.390|
+exp1<1>        |         |         |    7.538|    7.538|
+exp1<2>        |         |         |    6.097|    6.097|
+exp1<3>        |         |         |    6.045|    6.045|
+exp2<0>        |         |         |    7.205|    7.205|
+exp2<1>        |         |         |    7.119|    7.119|
+exp2<2>        |         |         |    6.472|    6.472|
+exp2<3>        |         |         |    5.823|    5.823|
+frac1<0>       |         |         |    7.598|    7.598|
+frac1<1>       |         |         |    7.883|    7.883|
+frac1<2>       |         |         |    8.238|    8.238|
+frac1<3>       |         |         |    7.818|    7.818|
+frac1<4>       |         |         |    8.377|    8.377|
+frac1<5>       |         |         |    7.769|    7.769|
+frac1<6>       |         |         |    7.294|    7.294|
+frac1<7>       |         |         |    7.335|    7.335|
+frac2<0>       |         |         |    7.846|    7.846|
+frac2<1>       |         |         |    6.942|    6.942|
+frac2<2>       |         |         |    7.473|    7.473|
+frac2<3>       |         |         |    7.606|    7.606|
+frac2<4>       |         |         |    7.702|    7.702|
+frac2<5>       |         |         |    7.265|    7.265|
+frac2<6>       |         |         |    7.166|    7.166|
+frac2<7>       |         |         |    7.040|    7.040|
+sign1          |         |         |    1.421|    1.421|
+sign2          |         |         |    1.525|    1.525|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac2<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.781|    7.781|
+exp1<1>        |         |         |    7.929|    7.929|
+exp1<2>        |         |         |    6.488|    6.488|
+exp1<3>        |         |         |    6.436|    6.436|
+exp2<0>        |         |         |    7.596|    7.596|
+exp2<1>        |         |         |    7.510|    7.510|
+exp2<2>        |         |         |    6.863|    6.863|
+exp2<3>        |         |         |    6.214|    6.214|
+frac1<0>       |         |         |    7.989|    7.989|
+frac1<1>       |         |         |    8.274|    8.274|
+frac1<2>       |         |         |    8.629|    8.629|
+frac1<3>       |         |         |    8.209|    8.209|
+frac1<4>       |         |         |    8.768|    8.768|
+frac1<5>       |         |         |    8.160|    8.160|
+frac1<6>       |         |         |    7.685|    7.685|
+frac1<7>       |         |         |    7.726|    7.726|
+frac2<0>       |         |         |    8.237|    8.237|
+frac2<1>       |         |         |    7.333|    7.333|
+frac2<2>       |         |         |    7.864|    7.864|
+frac2<3>       |         |         |    7.997|    7.997|
+frac2<4>       |         |         |    8.093|    8.093|
+frac2<5>       |         |         |    7.656|    7.656|
+frac2<6>       |         |         |    7.557|    7.557|
+frac2<7>       |         |         |    7.431|    7.431|
+sign1          |         |         |    1.812|    1.812|
+sign2          |         |         |    1.916|    1.916|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac2<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.909|    7.909|
+exp1<1>        |         |         |    8.057|    8.057|
+exp1<2>        |         |         |    6.616|    6.616|
+exp1<3>        |         |         |    6.564|    6.564|
+exp2<0>        |         |         |    7.724|    7.724|
+exp2<1>        |         |         |    7.638|    7.638|
+exp2<2>        |         |         |    6.991|    6.991|
+exp2<3>        |         |         |    6.342|    6.342|
+frac1<0>       |         |         |    8.117|    8.117|
+frac1<1>       |         |         |    8.402|    8.402|
+frac1<2>       |         |         |    8.757|    8.757|
+frac1<3>       |         |         |    8.337|    8.337|
+frac1<4>       |         |         |    8.896|    8.896|
+frac1<5>       |         |         |    8.288|    8.288|
+frac1<6>       |         |         |    7.813|    7.813|
+frac1<7>       |         |         |    7.854|    7.854|
+frac2<0>       |         |         |    8.365|    8.365|
+frac2<1>       |         |         |    7.461|    7.461|
+frac2<2>       |         |         |    7.992|    7.992|
+frac2<3>       |         |         |    8.125|    8.125|
+frac2<4>       |         |         |    8.221|    8.221|
+frac2<5>       |         |         |    7.784|    7.784|
+frac2<6>       |         |         |    7.685|    7.685|
+frac2<7>       |         |         |    7.559|    7.559|
+sign1          |         |         |    1.940|    1.940|
+sign2          |         |         |    2.044|    2.044|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac2<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.729|    7.729|
+exp1<1>        |         |         |    7.877|    7.877|
+exp1<2>        |         |         |    6.436|    6.436|
+exp1<3>        |         |         |    6.384|    6.384|
+exp2<0>        |         |         |    7.544|    7.544|
+exp2<1>        |         |         |    7.458|    7.458|
+exp2<2>        |         |         |    6.811|    6.811|
+exp2<3>        |         |         |    6.162|    6.162|
+frac1<0>       |         |         |    7.937|    7.937|
+frac1<1>       |         |         |    8.222|    8.222|
+frac1<2>       |         |         |    8.577|    8.577|
+frac1<3>       |         |         |    8.157|    8.157|
+frac1<4>       |         |         |    8.716|    8.716|
+frac1<5>       |         |         |    8.108|    8.108|
+frac1<6>       |         |         |    7.633|    7.633|
+frac1<7>       |         |         |    7.674|    7.674|
+frac2<0>       |         |         |    8.185|    8.185|
+frac2<1>       |         |         |    7.281|    7.281|
+frac2<2>       |         |         |    7.812|    7.812|
+frac2<3>       |         |         |    7.945|    7.945|
+frac2<4>       |         |         |    8.041|    8.041|
+frac2<5>       |         |         |    7.604|    7.604|
+frac2<6>       |         |         |    7.505|    7.505|
+frac2<7>       |         |         |    7.379|    7.379|
+sign1          |         |         |    1.760|    1.760|
+sign2          |         |         |    1.864|    1.864|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac2<6>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    7.448|    7.448|
+exp1<1>        |         |         |    7.596|    7.596|
+exp1<2>        |         |         |    6.155|    6.155|
+exp1<3>        |         |         |    6.103|    6.103|
+exp2<0>        |         |         |    7.263|    7.263|
+exp2<1>        |         |         |    7.177|    7.177|
+exp2<2>        |         |         |    6.530|    6.530|
+exp2<3>        |         |         |    5.881|    5.881|
+frac1<0>       |         |         |    7.656|    7.656|
+frac1<1>       |         |         |    7.941|    7.941|
+frac1<2>       |         |         |    8.296|    8.296|
+frac1<3>       |         |         |    7.876|    7.876|
+frac1<4>       |         |         |    8.435|    8.435|
+frac1<5>       |         |         |    7.827|    7.827|
+frac1<6>       |         |         |    7.352|    7.352|
+frac1<7>       |         |         |    7.393|    7.393|
+frac2<0>       |         |         |    7.904|    7.904|
+frac2<1>       |         |         |    7.000|    7.000|
+frac2<2>       |         |         |    7.531|    7.531|
+frac2<3>       |         |         |    7.664|    7.664|
+frac2<4>       |         |         |    7.760|    7.760|
+frac2<5>       |         |         |    7.323|    7.323|
+frac2<6>       |         |         |    7.224|    7.224|
+frac2<7>       |         |         |    7.098|    7.098|
+sign1          |         |         |    1.479|    1.479|
+sign2          |         |         |    1.583|    1.583|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock frac2<7>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.073|    8.073|
+exp1<1>        |         |         |    8.221|    8.221|
+exp1<2>        |         |         |    6.780|    6.780|
+exp1<3>        |         |         |    6.728|    6.728|
+exp2<0>        |         |         |    7.888|    7.888|
+exp2<1>        |         |         |    7.802|    7.802|
+exp2<2>        |         |         |    7.155|    7.155|
+exp2<3>        |         |         |    6.506|    6.506|
+frac1<0>       |         |         |    8.281|    8.281|
+frac1<1>       |         |         |    8.566|    8.566|
+frac1<2>       |         |         |    8.921|    8.921|
+frac1<3>       |         |         |    8.501|    8.501|
+frac1<4>       |         |         |    9.060|    9.060|
+frac1<5>       |         |         |    8.452|    8.452|
+frac1<6>       |         |         |    7.977|    7.977|
+frac1<7>       |         |         |    8.018|    8.018|
+frac2<0>       |         |         |    8.529|    8.529|
+frac2<1>       |         |         |    7.625|    7.625|
+frac2<2>       |         |         |    8.156|    8.156|
+frac2<3>       |         |         |    8.289|    8.289|
+frac2<4>       |         |         |    8.385|    8.385|
+frac2<5>       |         |         |    7.948|    7.948|
+frac2<6>       |         |         |    7.849|    7.849|
+frac2<7>       |         |         |    7.723|    7.723|
+sign1          |         |         |    2.104|    2.104|
+sign2          |         |         |    2.208|    2.208|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sign1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.025|    8.025|
+exp1<1>        |         |         |    8.173|    8.173|
+exp1<2>        |         |         |    6.732|    6.732|
+exp1<3>        |         |         |    6.680|    6.680|
+exp2<0>        |         |         |    7.840|    7.840|
+exp2<1>        |         |         |    7.754|    7.754|
+exp2<2>        |         |         |    7.107|    7.107|
+exp2<3>        |         |         |    6.458|    6.458|
+frac1<0>       |         |         |    8.233|    8.233|
+frac1<1>       |         |         |    8.518|    8.518|
+frac1<2>       |         |         |    8.873|    8.873|
+frac1<3>       |         |         |    8.453|    8.453|
+frac1<4>       |         |         |    9.012|    9.012|
+frac1<5>       |         |         |    8.404|    8.404|
+frac1<6>       |         |         |    7.929|    7.929|
+frac1<7>       |         |         |    7.970|    7.970|
+frac2<0>       |         |         |    8.481|    8.481|
+frac2<1>       |         |         |    7.577|    7.577|
+frac2<2>       |         |         |    8.108|    8.108|
+frac2<3>       |         |         |    8.241|    8.241|
+frac2<4>       |         |         |    8.337|    8.337|
+frac2<5>       |         |         |    7.900|    7.900|
+frac2<6>       |         |         |    7.801|    7.801|
+frac2<7>       |         |         |    7.675|    7.675|
+sign1          |         |         |    2.056|    2.056|
+sign2          |         |         |    2.160|    2.160|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sign2
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+exp1<0>        |         |         |    8.069|    8.069|
+exp1<1>        |         |         |    8.217|    8.217|
+exp1<2>        |         |         |    6.776|    6.776|
+exp1<3>        |         |         |    6.724|    6.724|
+exp2<0>        |         |         |    7.884|    7.884|
+exp2<1>        |         |         |    7.798|    7.798|
+exp2<2>        |         |         |    7.151|    7.151|
+exp2<3>        |         |         |    6.502|    6.502|
+frac1<0>       |         |         |    8.277|    8.277|
+frac1<1>       |         |         |    8.562|    8.562|
+frac1<2>       |         |         |    8.917|    8.917|
+frac1<3>       |         |         |    8.497|    8.497|
+frac1<4>       |         |         |    9.056|    9.056|
+frac1<5>       |         |         |    8.448|    8.448|
+frac1<6>       |         |         |    7.973|    7.973|
+frac1<7>       |         |         |    8.014|    8.014|
+frac2<0>       |         |         |    8.525|    8.525|
+frac2<1>       |         |         |    7.621|    7.621|
+frac2<2>       |         |         |    8.152|    8.152|
+frac2<3>       |         |         |    8.285|    8.285|
+frac2<4>       |         |         |    8.381|    8.381|
+frac2<5>       |         |         |    7.944|    7.944|
+frac2<6>       |         |         |    7.845|    7.845|
+frac2<7>       |         |         |    7.719|    7.719|
+sign1          |         |         |    2.100|    2.100|
+sign2          |         |         |    2.204|    2.204|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+exp1<0>        |exp_out<0>     |   24.866|
+exp1<0>        |exp_out<1>     |   24.568|
+exp1<0>        |exp_out<2>     |   24.709|
+exp1<0>        |exp_out<3>     |   23.935|
+exp1<0>        |frac_out<0>    |   25.035|
+exp1<0>        |frac_out<1>    |   23.537|
+exp1<0>        |frac_out<2>    |   24.753|
+exp1<0>        |frac_out<3>    |   23.722|
+exp1<0>        |frac_out<4>    |   24.007|
+exp1<0>        |frac_out<5>    |   23.506|
+exp1<0>        |frac_out<6>    |   23.869|
+exp1<0>        |frac_out<7>    |   23.368|
+exp1<0>        |sign_out       |   14.202|
+exp1<1>        |exp_out<0>     |   25.014|
+exp1<1>        |exp_out<1>     |   24.716|
+exp1<1>        |exp_out<2>     |   24.857|
+exp1<1>        |exp_out<3>     |   24.083|
+exp1<1>        |frac_out<0>    |   25.183|
+exp1<1>        |frac_out<1>    |   23.685|
+exp1<1>        |frac_out<2>    |   24.901|
+exp1<1>        |frac_out<3>    |   23.870|
+exp1<1>        |frac_out<4>    |   24.155|
+exp1<1>        |frac_out<5>    |   23.654|
+exp1<1>        |frac_out<6>    |   24.017|
+exp1<1>        |frac_out<7>    |   23.516|
+exp1<1>        |sign_out       |   14.350|
+exp1<2>        |exp_out<0>     |   23.573|
+exp1<2>        |exp_out<1>     |   23.275|
+exp1<2>        |exp_out<2>     |   23.416|
+exp1<2>        |exp_out<3>     |   22.642|
+exp1<2>        |frac_out<0>    |   23.742|
+exp1<2>        |frac_out<1>    |   22.244|
+exp1<2>        |frac_out<2>    |   23.460|
+exp1<2>        |frac_out<3>    |   22.429|
+exp1<2>        |frac_out<4>    |   22.714|
+exp1<2>        |frac_out<5>    |   22.213|
+exp1<2>        |frac_out<6>    |   22.576|
+exp1<2>        |frac_out<7>    |   22.075|
+exp1<2>        |sign_out       |   12.909|
+exp1<3>        |exp_out<0>     |   23.521|
+exp1<3>        |exp_out<1>     |   23.223|
+exp1<3>        |exp_out<2>     |   23.364|
+exp1<3>        |exp_out<3>     |   22.590|
+exp1<3>        |frac_out<0>    |   23.690|
+exp1<3>        |frac_out<1>    |   22.192|
+exp1<3>        |frac_out<2>    |   23.408|
+exp1<3>        |frac_out<3>    |   22.377|
+exp1<3>        |frac_out<4>    |   22.662|
+exp1<3>        |frac_out<5>    |   22.161|
+exp1<3>        |frac_out<6>    |   22.524|
+exp1<3>        |frac_out<7>    |   22.023|
+exp1<3>        |sign_out       |   12.857|
+exp2<0>        |exp_out<0>     |   24.681|
+exp2<0>        |exp_out<1>     |   24.383|
+exp2<0>        |exp_out<2>     |   24.524|
+exp2<0>        |exp_out<3>     |   23.750|
+exp2<0>        |frac_out<0>    |   24.850|
+exp2<0>        |frac_out<1>    |   23.352|
+exp2<0>        |frac_out<2>    |   24.568|
+exp2<0>        |frac_out<3>    |   23.537|
+exp2<0>        |frac_out<4>    |   23.822|
+exp2<0>        |frac_out<5>    |   23.321|
+exp2<0>        |frac_out<6>    |   23.684|
+exp2<0>        |frac_out<7>    |   23.183|
+exp2<0>        |sign_out       |   14.017|
+exp2<1>        |exp_out<0>     |   24.595|
+exp2<1>        |exp_out<1>     |   24.297|
+exp2<1>        |exp_out<2>     |   24.438|
+exp2<1>        |exp_out<3>     |   23.664|
+exp2<1>        |frac_out<0>    |   24.764|
+exp2<1>        |frac_out<1>    |   23.266|
+exp2<1>        |frac_out<2>    |   24.482|
+exp2<1>        |frac_out<3>    |   23.451|
+exp2<1>        |frac_out<4>    |   23.736|
+exp2<1>        |frac_out<5>    |   23.235|
+exp2<1>        |frac_out<6>    |   23.598|
+exp2<1>        |frac_out<7>    |   23.097|
+exp2<1>        |sign_out       |   13.931|
+exp2<2>        |exp_out<0>     |   23.948|
+exp2<2>        |exp_out<1>     |   23.650|
+exp2<2>        |exp_out<2>     |   23.791|
+exp2<2>        |exp_out<3>     |   23.017|
+exp2<2>        |frac_out<0>    |   24.117|
+exp2<2>        |frac_out<1>    |   22.619|
+exp2<2>        |frac_out<2>    |   23.835|
+exp2<2>        |frac_out<3>    |   22.804|
+exp2<2>        |frac_out<4>    |   23.089|
+exp2<2>        |frac_out<5>    |   22.588|
+exp2<2>        |frac_out<6>    |   22.951|
+exp2<2>        |frac_out<7>    |   22.450|
+exp2<2>        |sign_out       |   13.284|
+exp2<3>        |exp_out<0>     |   23.299|
+exp2<3>        |exp_out<1>     |   23.001|
+exp2<3>        |exp_out<2>     |   23.142|
+exp2<3>        |exp_out<3>     |   22.368|
+exp2<3>        |frac_out<0>    |   23.468|
+exp2<3>        |frac_out<1>    |   21.970|
+exp2<3>        |frac_out<2>    |   23.186|
+exp2<3>        |frac_out<3>    |   22.155|
+exp2<3>        |frac_out<4>    |   22.440|
+exp2<3>        |frac_out<5>    |   21.939|
+exp2<3>        |frac_out<6>    |   22.302|
+exp2<3>        |frac_out<7>    |   21.801|
+exp2<3>        |sign_out       |   12.635|
+frac1<0>       |exp_out<0>     |   25.074|
+frac1<0>       |exp_out<1>     |   24.776|
+frac1<0>       |exp_out<2>     |   24.917|
+frac1<0>       |exp_out<3>     |   24.143|
+frac1<0>       |frac_out<0>    |   25.243|
+frac1<0>       |frac_out<1>    |   23.745|
+frac1<0>       |frac_out<2>    |   24.961|
+frac1<0>       |frac_out<3>    |   23.930|
+frac1<0>       |frac_out<4>    |   24.215|
+frac1<0>       |frac_out<5>    |   23.714|
+frac1<0>       |frac_out<6>    |   24.077|
+frac1<0>       |frac_out<7>    |   23.576|
+frac1<0>       |sign_out       |   14.410|
+frac1<1>       |exp_out<0>     |   25.359|
+frac1<1>       |exp_out<1>     |   25.061|
+frac1<1>       |exp_out<2>     |   25.202|
+frac1<1>       |exp_out<3>     |   24.428|
+frac1<1>       |frac_out<0>    |   25.528|
+frac1<1>       |frac_out<1>    |   24.030|
+frac1<1>       |frac_out<2>    |   25.246|
+frac1<1>       |frac_out<3>    |   24.215|
+frac1<1>       |frac_out<4>    |   24.500|
+frac1<1>       |frac_out<5>    |   23.999|
+frac1<1>       |frac_out<6>    |   24.362|
+frac1<1>       |frac_out<7>    |   23.861|
+frac1<1>       |sign_out       |   14.695|
+frac1<2>       |exp_out<0>     |   25.714|
+frac1<2>       |exp_out<1>     |   25.416|
+frac1<2>       |exp_out<2>     |   25.557|
+frac1<2>       |exp_out<3>     |   24.783|
+frac1<2>       |frac_out<0>    |   25.883|
+frac1<2>       |frac_out<1>    |   24.385|
+frac1<2>       |frac_out<2>    |   25.601|
+frac1<2>       |frac_out<3>    |   24.570|
+frac1<2>       |frac_out<4>    |   24.855|
+frac1<2>       |frac_out<5>    |   24.354|
+frac1<2>       |frac_out<6>    |   24.717|
+frac1<2>       |frac_out<7>    |   24.216|
+frac1<2>       |sign_out       |   15.050|
+frac1<3>       |exp_out<0>     |   25.294|
+frac1<3>       |exp_out<1>     |   24.996|
+frac1<3>       |exp_out<2>     |   25.137|
+frac1<3>       |exp_out<3>     |   24.363|
+frac1<3>       |frac_out<0>    |   25.463|
+frac1<3>       |frac_out<1>    |   23.965|
+frac1<3>       |frac_out<2>    |   25.181|
+frac1<3>       |frac_out<3>    |   24.150|
+frac1<3>       |frac_out<4>    |   24.435|
+frac1<3>       |frac_out<5>    |   23.934|
+frac1<3>       |frac_out<6>    |   24.297|
+frac1<3>       |frac_out<7>    |   23.796|
+frac1<3>       |sign_out       |   14.630|
+frac1<4>       |exp_out<0>     |   25.853|
+frac1<4>       |exp_out<1>     |   25.555|
+frac1<4>       |exp_out<2>     |   25.696|
+frac1<4>       |exp_out<3>     |   24.922|
+frac1<4>       |frac_out<0>    |   26.022|
+frac1<4>       |frac_out<1>    |   24.524|
+frac1<4>       |frac_out<2>    |   25.740|
+frac1<4>       |frac_out<3>    |   24.709|
+frac1<4>       |frac_out<4>    |   24.994|
+frac1<4>       |frac_out<5>    |   24.493|
+frac1<4>       |frac_out<6>    |   24.856|
+frac1<4>       |frac_out<7>    |   24.355|
+frac1<4>       |sign_out       |   15.189|
+frac1<5>       |exp_out<0>     |   25.245|
+frac1<5>       |exp_out<1>     |   24.947|
+frac1<5>       |exp_out<2>     |   25.088|
+frac1<5>       |exp_out<3>     |   24.314|
+frac1<5>       |frac_out<0>    |   25.414|
+frac1<5>       |frac_out<1>    |   23.916|
+frac1<5>       |frac_out<2>    |   25.132|
+frac1<5>       |frac_out<3>    |   24.101|
+frac1<5>       |frac_out<4>    |   24.386|
+frac1<5>       |frac_out<5>    |   23.885|
+frac1<5>       |frac_out<6>    |   24.248|
+frac1<5>       |frac_out<7>    |   23.747|
+frac1<5>       |sign_out       |   14.581|
+frac1<6>       |exp_out<0>     |   24.770|
+frac1<6>       |exp_out<1>     |   24.472|
+frac1<6>       |exp_out<2>     |   24.613|
+frac1<6>       |exp_out<3>     |   23.839|
+frac1<6>       |frac_out<0>    |   24.939|
+frac1<6>       |frac_out<1>    |   23.441|
+frac1<6>       |frac_out<2>    |   24.657|
+frac1<6>       |frac_out<3>    |   23.626|
+frac1<6>       |frac_out<4>    |   23.911|
+frac1<6>       |frac_out<5>    |   23.410|
+frac1<6>       |frac_out<6>    |   23.773|
+frac1<6>       |frac_out<7>    |   23.272|
+frac1<6>       |sign_out       |   14.106|
+frac1<7>       |exp_out<0>     |   24.811|
+frac1<7>       |exp_out<1>     |   24.513|
+frac1<7>       |exp_out<2>     |   24.654|
+frac1<7>       |exp_out<3>     |   23.880|
+frac1<7>       |frac_out<0>    |   24.980|
+frac1<7>       |frac_out<1>    |   23.482|
+frac1<7>       |frac_out<2>    |   24.698|
+frac1<7>       |frac_out<3>    |   23.667|
+frac1<7>       |frac_out<4>    |   23.952|
+frac1<7>       |frac_out<5>    |   23.451|
+frac1<7>       |frac_out<6>    |   23.814|
+frac1<7>       |frac_out<7>    |   23.313|
+frac1<7>       |sign_out       |   14.147|
+frac2<0>       |exp_out<0>     |   25.322|
+frac2<0>       |exp_out<1>     |   25.024|
+frac2<0>       |exp_out<2>     |   25.165|
+frac2<0>       |exp_out<3>     |   24.391|
+frac2<0>       |frac_out<0>    |   25.491|
+frac2<0>       |frac_out<1>    |   23.993|
+frac2<0>       |frac_out<2>    |   25.209|
+frac2<0>       |frac_out<3>    |   24.178|
+frac2<0>       |frac_out<4>    |   24.463|
+frac2<0>       |frac_out<5>    |   23.962|
+frac2<0>       |frac_out<6>    |   24.325|
+frac2<0>       |frac_out<7>    |   23.824|
+frac2<0>       |sign_out       |   14.658|
+frac2<1>       |exp_out<0>     |   24.418|
+frac2<1>       |exp_out<1>     |   24.120|
+frac2<1>       |exp_out<2>     |   24.261|
+frac2<1>       |exp_out<3>     |   23.487|
+frac2<1>       |frac_out<0>    |   24.587|
+frac2<1>       |frac_out<1>    |   23.089|
+frac2<1>       |frac_out<2>    |   24.305|
+frac2<1>       |frac_out<3>    |   23.274|
+frac2<1>       |frac_out<4>    |   23.559|
+frac2<1>       |frac_out<5>    |   23.058|
+frac2<1>       |frac_out<6>    |   23.421|
+frac2<1>       |frac_out<7>    |   22.920|
+frac2<1>       |sign_out       |   13.754|
+frac2<2>       |exp_out<0>     |   24.949|
+frac2<2>       |exp_out<1>     |   24.651|
+frac2<2>       |exp_out<2>     |   24.792|
+frac2<2>       |exp_out<3>     |   24.018|
+frac2<2>       |frac_out<0>    |   25.118|
+frac2<2>       |frac_out<1>    |   23.620|
+frac2<2>       |frac_out<2>    |   24.836|
+frac2<2>       |frac_out<3>    |   23.805|
+frac2<2>       |frac_out<4>    |   24.090|
+frac2<2>       |frac_out<5>    |   23.589|
+frac2<2>       |frac_out<6>    |   23.952|
+frac2<2>       |frac_out<7>    |   23.451|
+frac2<2>       |sign_out       |   14.285|
+frac2<3>       |exp_out<0>     |   25.082|
+frac2<3>       |exp_out<1>     |   24.784|
+frac2<3>       |exp_out<2>     |   24.925|
+frac2<3>       |exp_out<3>     |   24.151|
+frac2<3>       |frac_out<0>    |   25.251|
+frac2<3>       |frac_out<1>    |   23.753|
+frac2<3>       |frac_out<2>    |   24.969|
+frac2<3>       |frac_out<3>    |   23.938|
+frac2<3>       |frac_out<4>    |   24.223|
+frac2<3>       |frac_out<5>    |   23.722|
+frac2<3>       |frac_out<6>    |   24.085|
+frac2<3>       |frac_out<7>    |   23.584|
+frac2<3>       |sign_out       |   14.418|
+frac2<4>       |exp_out<0>     |   25.178|
+frac2<4>       |exp_out<1>     |   24.880|
+frac2<4>       |exp_out<2>     |   25.021|
+frac2<4>       |exp_out<3>     |   24.247|
+frac2<4>       |frac_out<0>    |   25.347|
+frac2<4>       |frac_out<1>    |   23.849|
+frac2<4>       |frac_out<2>    |   25.065|
+frac2<4>       |frac_out<3>    |   24.034|
+frac2<4>       |frac_out<4>    |   24.319|
+frac2<4>       |frac_out<5>    |   23.818|
+frac2<4>       |frac_out<6>    |   24.181|
+frac2<4>       |frac_out<7>    |   23.680|
+frac2<4>       |sign_out       |   14.514|
+frac2<5>       |exp_out<0>     |   24.741|
+frac2<5>       |exp_out<1>     |   24.443|
+frac2<5>       |exp_out<2>     |   24.584|
+frac2<5>       |exp_out<3>     |   23.810|
+frac2<5>       |frac_out<0>    |   24.910|
+frac2<5>       |frac_out<1>    |   23.412|
+frac2<5>       |frac_out<2>    |   24.628|
+frac2<5>       |frac_out<3>    |   23.597|
+frac2<5>       |frac_out<4>    |   23.882|
+frac2<5>       |frac_out<5>    |   23.381|
+frac2<5>       |frac_out<6>    |   23.744|
+frac2<5>       |frac_out<7>    |   23.243|
+frac2<5>       |sign_out       |   14.077|
+frac2<6>       |exp_out<0>     |   24.642|
+frac2<6>       |exp_out<1>     |   24.344|
+frac2<6>       |exp_out<2>     |   24.485|
+frac2<6>       |exp_out<3>     |   23.711|
+frac2<6>       |frac_out<0>    |   24.811|
+frac2<6>       |frac_out<1>    |   23.313|
+frac2<6>       |frac_out<2>    |   24.529|
+frac2<6>       |frac_out<3>    |   23.498|
+frac2<6>       |frac_out<4>    |   23.783|
+frac2<6>       |frac_out<5>    |   23.282|
+frac2<6>       |frac_out<6>    |   23.645|
+frac2<6>       |frac_out<7>    |   23.144|
+frac2<6>       |sign_out       |   13.978|
+frac2<7>       |exp_out<0>     |   24.516|
+frac2<7>       |exp_out<1>     |   24.218|
+frac2<7>       |exp_out<2>     |   24.359|
+frac2<7>       |exp_out<3>     |   23.585|
+frac2<7>       |frac_out<0>    |   24.685|
+frac2<7>       |frac_out<1>    |   23.187|
+frac2<7>       |frac_out<2>    |   24.403|
+frac2<7>       |frac_out<3>    |   23.372|
+frac2<7>       |frac_out<4>    |   23.657|
+frac2<7>       |frac_out<5>    |   23.156|
+frac2<7>       |frac_out<6>    |   23.519|
+frac2<7>       |frac_out<7>    |   23.018|
+frac2<7>       |sign_out       |   13.852|
+sign1          |exp_out<0>     |   18.897|
+sign1          |exp_out<1>     |   18.599|
+sign1          |exp_out<2>     |   18.740|
+sign1          |exp_out<3>     |   17.966|
+sign1          |frac_out<0>    |   19.066|
+sign1          |frac_out<1>    |   17.568|
+sign1          |frac_out<2>    |   18.784|
+sign1          |frac_out<3>    |   17.753|
+sign1          |frac_out<4>    |   18.038|
+sign1          |frac_out<5>    |   17.537|
+sign1          |frac_out<6>    |   17.900|
+sign1          |frac_out<7>    |   17.399|
+sign1          |sign_out       |   12.517|
+sign2          |exp_out<0>     |   19.001|
+sign2          |exp_out<1>     |   18.703|
+sign2          |exp_out<2>     |   18.844|
+sign2          |exp_out<3>     |   18.070|
+sign2          |frac_out<0>    |   19.170|
+sign2          |frac_out<1>    |   17.672|
+sign2          |frac_out<2>    |   18.888|
+sign2          |frac_out<3>    |   17.857|
+sign2          |frac_out<4>    |   18.142|
+sign2          |frac_out<5>    |   17.641|
+sign2          |frac_out<6>    |   18.004|
+sign2          |frac_out<7>    |   17.503|
+sign2          |sign_out       |   12.582|
+---------------+---------------+---------+
+
+
+Analysis completed Sat May  4 00:49:14 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 383 MB
+
+
+

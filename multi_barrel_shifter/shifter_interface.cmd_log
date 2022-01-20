@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/multi_barrel_shifter/shifter_interface.xst" -ofn "/home/ise/ISE_PROJECTS/multi_barrel_shifter/shifter_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 shifter_interface.ngc shifter_interface.ngd  
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/multi_barrel_shifter/shifter_interface.xst" -ofn "/home/ise/ISE_PROJECTS/multi_barrel_shifter/shifter_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 shifter_interface.ngc shifter_interface.ngd  
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/multi_barrel_shifter/shifter_interface.xst" -ofn "/home/ise/ISE_PROJECTS/multi_barrel_shifter/shifter_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc x9.ucf -p xc6slx9-tqg144-2 shifter_interface.ngc shifter_interface.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shifter_interface_map.ncd shifter_interface.ngd shifter_interface.pcf 
+par -w -intstyle ise -ol high -mt off shifter_interface_map.ncd shifter_interface.ncd shifter_interface.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shifter_interface.twx shifter_interface.ncd -o shifter_interface.twr shifter_interface.pcf -ucf x9.ucf 
+bitgen -intstyle ise -f shifter_interface.ut shifter_interface.ncd 

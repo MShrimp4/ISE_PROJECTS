@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/ISE_PROJECTS/fp_adder/fp_adder.ncd
+OUTFILE=/home/ise/ISE_PROJECTS/fp_adder/fp_adder.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=/home/ise/ISE_PROJECTS/fp_adder
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

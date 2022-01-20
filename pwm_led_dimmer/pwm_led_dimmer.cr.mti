@@ -1,0 +1,8 @@
+C:/Users/mshrimp/Documents/ISE_PROJECTS/pwm_led_dimmer/pwm_sim.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/pwm_led_dimmer/pwm_sim.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module pwm_sim
+
+Top level modules:
+	pwm_sim
+
+} {} {}}

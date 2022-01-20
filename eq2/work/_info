@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+veq1
+Z0 !s110 1555635090
+!i10b 1
+!s100 ]9IQI<l`aEf8NWCfik@YT0
+I`ST6ziR55Y66`f>=ADIkN0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/mshrimp/Documents/ISE_PROJECTS/eq2
+Z3 w1555634328
+Z4 8C:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/eq2.v
+Z5 FC:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/eq2.v
+L0 22
+Z6 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z7 !s108 1555635090.000000
+Z8 !s107 C:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/eq2.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/eq2.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+veq2
+R0
+!i10b 1
+!s100 0O:>m1;`TWR`><ChDHjI_2
+I`Tl[go3<jng5okz?]^ln`1
+R1
+R2
+R3
+R4
+R5
+L0 34
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+veq2_testbench
+!s110 1555635122
+!i10b 1
+!s100 OJUl4Y?0QIIG`H2Mh<IH?0
+IS7[NNhe[`1Gn6b;MU;n?E3
+R1
+R2
+w1555635063
+8C:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/testbench.v
+FC:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/testbench.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1555635122.000000
+!s107 C:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mshrimp/Documents/ISE_PROJECTS/eq2/testbench.v|
+!s101 -O0
+!i113 1
+R10

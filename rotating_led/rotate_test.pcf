@@ -1,0 +1,44 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Sun May 05 09:07:02 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "P126" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "P127" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P111" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P112" LEVEL 1;
+COMP "clk" LOCATE = SITE "P21" LEVEL 1;
+COMP "sseg<0>" LOCATE = SITE "P115" LEVEL 1;
+COMP "sseg<1>" LOCATE = SITE "P121" LEVEL 1;
+COMP "sseg<2>" LOCATE = SITE "P119" LEVEL 1;
+COMP "sseg<3>" LOCATE = SITE "P118" LEVEL 1;
+COMP "sseg<4>" LOCATE = SITE "P117" LEVEL 1;
+COMP "sseg<5>" LOCATE = SITE "P114" LEVEL 1;
+COMP "sseg<6>" LOCATE = SITE "P116" LEVEL 1;
+COMP "sseg<7>" LOCATE = SITE "P123" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "P143" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "P142" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "P141" LEVEL 1;
+TIMEGRP clk = BEL "rot/count/r_reg_23" BEL "rot/count/r_reg_22" BEL
+        "rot/count/r_reg_21" BEL "rot/count/r_reg_20" BEL "rot/count/r_reg_19"
+        BEL "rot/count/r_reg_18" BEL "rot/count/r_reg_17" BEL
+        "rot/count/r_reg_16" BEL "rot/count/r_reg_15" BEL "rot/count/r_reg_14"
+        BEL "rot/count/r_reg_13" BEL "rot/count/r_reg_12" BEL
+        "rot/count/r_reg_11" BEL "rot/count/r_reg_10" BEL "rot/count/r_reg_9"
+        BEL "rot/count/r_reg_8" BEL "rot/count/r_reg_7" BEL
+        "rot/count/r_reg_6" BEL "rot/count/r_reg_5" BEL "rot/count/r_reg_4"
+        BEL "rot/count/r_reg_3" BEL "rot/count/r_reg_2" BEL
+        "rot/count/r_reg_1" BEL "rot/count/r_reg_0" BEL "rot/data_39" BEL
+        "rot/data_38" BEL "rot/data_37" BEL "rot/data_36" BEL "rot/data_35"
+        BEL "rot/data_34" BEL "rot/data_33" BEL "rot/data_32" BEL
+        "rot/data_31" BEL "rot/data_30" BEL "rot/data_29" BEL "rot/data_28"
+        BEL "rot/data_27" BEL "rot/data_26" BEL "rot/data_25" BEL
+        "rot/data_23" BEL "rot/data_22" BEL "rot/data_21" BEL "rot/data_19"
+        BEL "rot/data_18" BEL "rot/data_17" BEL "rot/data_15" BEL
+        "rot/data_14" BEL "rot/data_13" BEL "rot/data_11" BEL "rot/data_10"
+        BEL "rot/data_9" BEL "rot/data_7" BEL "rot/data_6" BEL "rot/data_5"
+        BEL "rot/data_3" BEL "rot/data_2" BEL "rot/data_1" BEL "rot/data_0"
+        BEL "clk_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "clk" 40 ns HIGH 50%;
+SCHEMATIC END;
+

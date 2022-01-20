@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/ISE_PROJECTS/sinx/sin.xst" -ofn "/home/ise/ISE_PROJECTS/sinx/sin.syr" 

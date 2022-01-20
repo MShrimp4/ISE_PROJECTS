@@ -1,0 +1,43 @@
+C:/Users/SGCC3/Desktop/booth/mux.v {1 {vlog -work work -stats=none C:/Users/SGCC3/Desktop/booth/mux.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} C:/Users/SGCC3/Desktop/booth/csa.v {1 {vlog -work work -stats=none C:/Users/SGCC3/Desktop/booth/csa.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CSA
+
+Top level modules:
+	CSA
+
+} {} {}} C:/Users/SGCC3/Desktop/booth/booth_test.v {1 {vlog -work work -stats=none C:/Users/SGCC3/Desktop/booth/booth_test.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module booth_test
+
+Top level modules:
+	booth_test
+
+} {} {}} C:/Users/SGCC3/Desktop/booth/test.v {1 {vlog -work work -stats=none C:/Users/SGCC3/Desktop/booth/test.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} C:/Users/SGCC3/Desktop/booth/adder.v {1 {vlog -work work -stats=none C:/Users/SGCC3/Desktop/booth/adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/SGCC3/Desktop/booth/booth.v {1 {vlog -work work -stats=none C:/Users/SGCC3/Desktop/booth/booth.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module booth
+
+Top level modules:
+	booth
+
+} {} {}}

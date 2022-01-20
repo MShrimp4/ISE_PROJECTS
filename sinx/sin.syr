@@ -1,0 +1,335 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: sin.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sin.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sin"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : sin
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ise/ISE_PROJECTS/sinx/sin_fragment.v" into library work
+Parsing module <sin_fragment>.
+Analyzing Verilog file "/home/ise/ISE_PROJECTS/sinx/sin.v" into library work
+Parsing module <sin>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <sin>.
+
+Elaborating module <sin_fragment>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sin>.
+    Related source file is "/home/ise/ISE_PROJECTS/sinx/sin.v".
+    Found 8-bit subtractor for signal <PWR_1_o_x[7]_sub_1_OUT> created at line 36.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Multiplexer(s).
+Unit <sin> synthesized.
+
+Synthesizing Unit <sin_fragment>.
+    Related source file is "/home/ise/ISE_PROJECTS/sinx/sin_fragment.v".
+    Found 256x7-bit Read Only RAM for signal <data>
+    Summary:
+	inferred   1 RAM(s).
+Unit <sin_fragment> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 256x7-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 1
+ 8-bit subtractor                                      : 1
+# Multiplexers                                         : 1
+ 8-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <sin_fragment>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_data> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 7-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+Unit <sin_fragment> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 256x7-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 1
+ 8-bit subtractor                                      : 1
+# Multiplexers                                         : 1
+ 8-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sin> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sin, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : sin.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 49
+#      LUT2                        : 9
+#      LUT6                        : 22
+#      MUXF7                       : 11
+#      MUXF8                       : 6
+#      VCC                         : 1
+# IO Buffers                       : 18
+#      IBUF                        : 10
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   31  out of   5720     0%  
+    Number used as Logic:                31  out of   5720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     31
+   Number with an unused Flip Flop:      31  out of     31   100%  
+   Number with an unused LUT:             0  out of     31     0%  
+   Number of fully used LUT-FF pairs:     0  out of     31     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    102    17%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.956ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 301 / 8
+-------------------------------------------------------------------------
+Delay:               8.956ns (Levels of Logic = 5)
+  Source:            x<8> (PAD)
+  Destination:       y<6> (PAD)
+
+  Data Path: x<8> to y<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.328   0.944  x_8_IBUF (x_8_IBUF)
+     LUT2:I1->O           22   0.254   1.442  Mmux_addr_x31 (addr_x<2>)
+     LUT2:I0->O            1   0.250   0.910  sin_table/Mram_data1411_SW0 (N0)
+     LUT6:I3->O            1   0.235   0.681  sin_table/Mram_data1411 (y_6_OBUF)
+     OBUF:I->O                 2.912          y_6_OBUF (y<6>)
+    ----------------------------------------
+    Total                      8.956ns (4.979ns logic, 3.977ns route)
+                                       (55.6% logic, 44.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.73 secs
+ 
+--> 
+
+
+Total memory usage is 375820 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

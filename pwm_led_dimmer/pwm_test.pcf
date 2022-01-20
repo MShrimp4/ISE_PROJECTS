@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Sun May 05 08:22:24 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P21" LEVEL 1;
+COMP "led" LOCATE = SITE "P44" LEVEL 1;
+COMP "btn" LOCATE = SITE "P131" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "P143" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "P142" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "P141" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "P140" LEVEL 1;
+TIMEGRP clk = BEL "pwm/count_0" BEL "pwm/count_1" BEL "pwm/count_2" BEL
+        "pwm/count_3" BEL "clk_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "clk" 40 ns HIGH 50%;
+SCHEMATIC END;
+

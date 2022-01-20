@@ -1,0 +1,4 @@
+verilog work "sign_mag_add.v"
+verilog work "list_ch04_13_disp_mux.v"
+verilog work "hex_to_sseg.v"
+verilog work "sm_add_test.v"

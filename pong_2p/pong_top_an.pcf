@@ -1,0 +1,102 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Sat May 18 05:09:09 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P21" LEVEL 1;
+COMP "ps2c" LOCATE = SITE "P24" LEVEL 1;
+COMP "ps2d" LOCATE = SITE "P26" LEVEL 1;
+COMP "hsync" LOCATE = SITE "P16" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P17" LEVEL 1;
+COMP "rgb<0>" LOCATE = SITE "P1" LEVEL 1;
+COMP "rgb<1>" LOCATE = SITE "P7" LEVEL 1;
+COMP "rgb<2>" LOCATE = SITE "P11" LEVEL 1;
+PIN text_unit_font_unit/Mram_data_pins<11> = BEL
+        "text_unit_font_unit/Mram_data" PINNAME CLKA;
+TIMEGRP clk = BEL "last_winner" BEL "ball_reg_0" BEL "ball_reg_1" BEL
+        "ball_reg_2" BEL "ball_reg_3" BEL "rgb_reg_0" BEL "rgb_reg_1" BEL
+        "rgb_reg_2" BEL "state_reg_FSM_FFd2" BEL "state_reg_FSM_FFd1" BEL
+        "timer_unit/timer_reg_3" BEL "timer_unit/timer_reg_4" BEL
+        "timer_unit/timer_reg_5" BEL "vsync_unit/h_count_reg_9" BEL
+        "vsync_unit/h_count_reg_8" BEL "vsync_unit/h_count_reg_7" BEL
+        "vsync_unit/h_count_reg_6" BEL "vsync_unit/h_count_reg_5" BEL
+        "vsync_unit/h_count_reg_4" BEL "vsync_unit/h_count_reg_3" BEL
+        "vsync_unit/h_count_reg_2" BEL "vsync_unit/h_count_reg_1" BEL
+        "vsync_unit/h_count_reg_0" BEL "vsync_unit/v_count_reg_9" BEL
+        "vsync_unit/v_count_reg_8" BEL "vsync_unit/v_count_reg_7" BEL
+        "vsync_unit/v_count_reg_6" BEL "vsync_unit/v_count_reg_5" BEL
+        "vsync_unit/v_count_reg_4" BEL "vsync_unit/v_count_reg_3" BEL
+        "vsync_unit/v_count_reg_2" BEL "vsync_unit/v_count_reg_1" BEL
+        "vsync_unit/v_count_reg_0" BEL "vsync_unit/h_sync_reg" BEL
+        "vsync_unit/v_sync_reg" BEL "vsync_unit/mod2_reg" BEL
+        "pong_graph_an_unit/bar2_y_reg_8" BEL
+        "pong_graph_an_unit/bar2_y_reg_7" BEL
+        "pong_graph_an_unit/bar2_y_reg_6" BEL
+        "pong_graph_an_unit/bar2_y_reg_5" BEL
+        "pong_graph_an_unit/bar2_y_reg_4" BEL
+        "pong_graph_an_unit/bar2_y_reg_3" BEL
+        "pong_graph_an_unit/bar2_y_reg_2" BEL "pong_graph_an_unit/bar_y_reg_8"
+        BEL "pong_graph_an_unit/bar_y_reg_7" BEL
+        "pong_graph_an_unit/bar_y_reg_6" BEL "pong_graph_an_unit/bar_y_reg_5"
+        BEL "pong_graph_an_unit/bar_y_reg_4" BEL
+        "pong_graph_an_unit/bar_y_reg_3" BEL "pong_graph_an_unit/bar_y_reg_2"
+        BEL "pong_graph_an_unit/ball_y_reg_9" BEL
+        "pong_graph_an_unit/ball_y_reg_8" BEL
+        "pong_graph_an_unit/ball_y_reg_7" BEL
+        "pong_graph_an_unit/ball_y_reg_6" BEL
+        "pong_graph_an_unit/ball_y_reg_5" BEL
+        "pong_graph_an_unit/ball_y_reg_4" BEL
+        "pong_graph_an_unit/ball_y_reg_3" BEL
+        "pong_graph_an_unit/ball_y_reg_2" BEL
+        "pong_graph_an_unit/ball_y_reg_1" BEL
+        "pong_graph_an_unit/ball_x_reg_9" BEL
+        "pong_graph_an_unit/ball_x_reg_8" BEL
+        "pong_graph_an_unit/ball_x_reg_7" BEL
+        "pong_graph_an_unit/ball_x_reg_6" BEL
+        "pong_graph_an_unit/ball_x_reg_5" BEL
+        "pong_graph_an_unit/ball_x_reg_4" BEL
+        "pong_graph_an_unit/ball_x_reg_3" BEL
+        "pong_graph_an_unit/ball_x_reg_2" BEL
+        "pong_graph_an_unit/x_delta_reg_3" BEL
+        "pong_graph_an_unit/x_delta_reg_2" BEL
+        "pong_graph_an_unit/y_delta_reg_3" BEL
+        "pong_graph_an_unit/y_delta_reg_2" BEL
+        "pong_graph_an_unit/y_delta_reg_1" BEL "right_score/dig_reg_3" BEL
+        "right_score/dig_reg_2" BEL "right_score/dig_reg_1" BEL
+        "left_score/dig_reg_3" BEL "left_score/dig_reg_2" BEL
+        "left_score/dig_reg_1" BEL "left_score/dig_reg_0" BEL
+        "keyboard_unit/key_1p_d" BEL "keyboard_unit/key_2p_u" BEL
+        "keyboard_unit/key_2p_d" BEL "keyboard_unit/key_1p_u" BEL
+        "keyboard_unit/en" BEL "keyboard_unit/ps2_module/n_reg_3" BEL
+        "keyboard_unit/ps2_module/n_reg_2" BEL
+        "keyboard_unit/ps2_module/n_reg_1" BEL
+        "keyboard_unit/ps2_module/n_reg_0" BEL
+        "keyboard_unit/ps2_module/state_reg_FSM_FFd1" BEL
+        "keyboard_unit/ps2_module/state_reg_FSM_FFd2" BEL
+        "keyboard_unit/ps2_module/f_ps2c_reg" BEL
+        "keyboard_unit/ps2_module/b_reg_10" BEL
+        "keyboard_unit/ps2_module/b_reg_9" BEL
+        "keyboard_unit/ps2_module/b_reg_8" BEL
+        "keyboard_unit/ps2_module/b_reg_7" BEL
+        "keyboard_unit/ps2_module/b_reg_6" BEL
+        "keyboard_unit/ps2_module/b_reg_5" BEL
+        "keyboard_unit/ps2_module/b_reg_4" BEL
+        "keyboard_unit/ps2_module/b_reg_3" BEL
+        "keyboard_unit/ps2_module/b_reg_2" BEL
+        "keyboard_unit/ps2_module/b_reg_1" BEL
+        "keyboard_unit/ps2_module/filter_reg_7" BEL
+        "keyboard_unit/ps2_module/filter_reg_6" BEL
+        "keyboard_unit/ps2_module/filter_reg_5" BEL
+        "keyboard_unit/ps2_module/filter_reg_4" BEL
+        "keyboard_unit/ps2_module/filter_reg_3" BEL
+        "keyboard_unit/ps2_module/filter_reg_2" BEL
+        "keyboard_unit/ps2_module/filter_reg_1" BEL
+        "keyboard_unit/ps2_module/filter_reg_0" BEL "timer_unit/timer_reg_0"
+        BEL "timer_unit/timer_reg_1" BEL "timer_unit/timer_reg_2" BEL
+        "timer_unit/timer_reg_6" BEL "right_score/dig_reg_0" BEL
+        "pong_graph_an_unit/ball_y_reg_1_1" BEL "vsync_unit/v_count_reg_9_1"
+        BEL "vsync_unit/v_count_reg_7_1" BEL "vsync_unit/v_count_reg_8_1" BEL
+        "clk_BUFGP/BUFG" PIN "text_unit_font_unit/Mram_data_pins<11>";
+TS_clk = PERIOD TIMEGRP "clk" 40 ns HIGH 50%;
+SCHEMATIC END;
+

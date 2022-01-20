@@ -1,0 +1,22 @@
+C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg_test.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg_test.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module hex_to_sseg_test
+
+Top level modules:
+	hex_to_sseg_test
+
+} {} {}} C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg_sim.v {1 {vlog -work work -stats=none {C:\Users\mshrimp\Documents\ISE_PROJECTS\HEX_to_sseg\hex_to_sseg_sim.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module hex_to_sseg_sim
+
+Top level modules:
+	hex_to_sseg_sim
+
+} {} {}} C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg.v {1 {vlog -work work -stats=none C:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg/hex_to_sseg.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module hex_to_sseg
+
+Top level modules:
+	hex_to_sseg
+
+} {} {}}

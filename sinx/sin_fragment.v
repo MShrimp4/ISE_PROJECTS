@@ -1,0 +1,286 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    01:18:24 05/06/2019 
+// Design Name: 
+// Module Name:    sin_fragment 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module sin_fragment(
+	input wire [7:0] addr,
+	output reg [6:0] data
+    );
+
+	always @*
+		case (addr)
+		8'h00: data = 7'b0000000;
+		8'h01: data = 7'b0000000;
+		8'h02: data = 7'b0000001;
+		8'h03: data = 7'b0000010;
+		8'h04: data = 7'b0000011;
+		8'h05: data = 7'b0000011;
+		8'h06: data = 7'b0000100;
+		8'h07: data = 7'b0000101;
+		8'h08: data = 7'b0000110;
+		8'h09: data = 7'b0000111;
+		8'h0A: data = 7'b0000111;
+		8'h0B: data = 7'b0001000;
+		8'h0C: data = 7'b0001001;
+		8'h0D: data = 7'b0001010;
+		8'h0E: data = 7'b0001010;
+		8'h0F: data = 7'b0001011;
+		8'h10: data = 7'b0001100;
+		8'h11: data = 7'b0001101;
+		8'h12: data = 7'b0001110;
+		8'h13: data = 7'b0001110;
+		8'h14: data = 7'b0001111;
+		8'h15: data = 7'b0010000;
+		8'h16: data = 7'b0010001;
+		8'h17: data = 7'b0010010;
+		8'h18: data = 7'b0010010;
+		8'h19: data = 7'b0010011;
+		8'h1A: data = 7'b0010100;
+		8'h1B: data = 7'b0010101;
+		8'h1C: data = 7'b0010101;
+		8'h1D: data = 7'b0010110;
+		8'h1E: data = 7'b0010111;
+		8'h1F: data = 7'b0011000;
+		8'h20: data = 7'b0011000;
+		8'h21: data = 7'b0011001;
+		8'h22: data = 7'b0011010;
+		8'h23: data = 7'b0011011;
+		8'h24: data = 7'b0011100;
+		8'h25: data = 7'b0011100;
+		8'h26: data = 7'b0011101;
+		8'h27: data = 7'b0011110;
+		8'h28: data = 7'b0011111;
+		8'h29: data = 7'b0011111;
+		8'h2A: data = 7'b0100000;
+		8'h2B: data = 7'b0100001;
+		8'h2C: data = 7'b0100010;
+		8'h2D: data = 7'b0100010;
+		8'h2E: data = 7'b0100011;
+		8'h2F: data = 7'b0100100;
+		8'h30: data = 7'b0100101;
+		8'h31: data = 7'b0100101;
+		8'h32: data = 7'b0100110;
+		8'h33: data = 7'b0100111;
+		8'h34: data = 7'b0101000;
+		8'h35: data = 7'b0101000;
+		8'h36: data = 7'b0101001;
+		8'h37: data = 7'b0101010;
+		8'h38: data = 7'b0101011;
+		8'h39: data = 7'b0101011;
+		8'h3A: data = 7'b0101100;
+		8'h3B: data = 7'b0101101;
+		8'h3C: data = 7'b0101110;
+		8'h3D: data = 7'b0101110;
+		8'h3E: data = 7'b0101111;
+		8'h3F: data = 7'b0110000;
+		8'h40: data = 7'b0110000;
+		8'h41: data = 7'b0110001;
+		8'h42: data = 7'b0110010;
+		8'h43: data = 7'b0110011;
+		8'h44: data = 7'b0110011;
+		8'h45: data = 7'b0110100;
+		8'h46: data = 7'b0110101;
+		8'h47: data = 7'b0110110;
+		8'h48: data = 7'b0110110;
+		8'h49: data = 7'b0110111;
+		8'h4A: data = 7'b0111000;
+		8'h4B: data = 7'b0111000;
+		8'h4C: data = 7'b0111001;
+		8'h4D: data = 7'b0111010;
+		8'h4E: data = 7'b0111010;
+		8'h4F: data = 7'b0111011;
+		8'h50: data = 7'b0111100;
+		8'h51: data = 7'b0111101;
+		8'h52: data = 7'b0111101;
+		8'h53: data = 7'b0111110;
+		8'h54: data = 7'b0111111;
+		8'h55: data = 7'b0111111;
+		8'h56: data = 7'b1000000;
+		8'h57: data = 7'b1000001;
+		8'h58: data = 7'b1000001;
+		8'h59: data = 7'b1000010;
+		8'h5A: data = 7'b1000011;
+		8'h5B: data = 7'b1000011;
+		8'h5C: data = 7'b1000100;
+		8'h5D: data = 7'b1000101;
+		8'h5E: data = 7'b1000101;
+		8'h5F: data = 7'b1000110;
+		8'h60: data = 7'b1000111;
+		8'h61: data = 7'b1000111;
+		8'h62: data = 7'b1001000;
+		8'h63: data = 7'b1001001;
+		8'h64: data = 7'b1001001;
+		8'h65: data = 7'b1001010;
+		8'h66: data = 7'b1001010;
+		8'h67: data = 7'b1001011;
+		8'h68: data = 7'b1001100;
+		8'h69: data = 7'b1001100;
+		8'h6A: data = 7'b1001101;
+		8'h6B: data = 7'b1001110;
+		8'h6C: data = 7'b1001110;
+		8'h6D: data = 7'b1001111;
+		8'h6E: data = 7'b1001111;
+		8'h6F: data = 7'b1010000;
+		8'h70: data = 7'b1010001;
+		8'h71: data = 7'b1010001;
+		8'h72: data = 7'b1010010;
+		8'h73: data = 7'b1010011;
+		8'h74: data = 7'b1010011;
+		8'h75: data = 7'b1010100;
+		8'h76: data = 7'b1010100;
+		8'h77: data = 7'b1010101;
+		8'h78: data = 7'b1010101;
+		8'h79: data = 7'b1010110;
+		8'h7A: data = 7'b1010111;
+		8'h7B: data = 7'b1010111;
+		8'h7C: data = 7'b1011000;
+		8'h7D: data = 7'b1011000;
+		8'h7E: data = 7'b1011001;
+		8'h7F: data = 7'b1011001;
+		8'h80: data = 7'b1011010;
+		8'h81: data = 7'b1011011;
+		8'h82: data = 7'b1011011;
+		8'h83: data = 7'b1011100;
+		8'h84: data = 7'b1011100;
+		8'h85: data = 7'b1011101;
+		8'h86: data = 7'b1011101;
+		8'h87: data = 7'b1011110;
+		8'h88: data = 7'b1011110;
+		8'h89: data = 7'b1011111;
+		8'h8A: data = 7'b1011111;
+		8'h8B: data = 7'b1100000;
+		8'h8C: data = 7'b1100000;
+		8'h8D: data = 7'b1100001;
+		8'h8E: data = 7'b1100001;
+		8'h8F: data = 7'b1100010;
+		8'h90: data = 7'b1100010;
+		8'h91: data = 7'b1100011;
+		8'h92: data = 7'b1100011;
+		8'h93: data = 7'b1100100;
+		8'h94: data = 7'b1100100;
+		8'h95: data = 7'b1100101;
+		8'h96: data = 7'b1100101;
+		8'h97: data = 7'b1100110;
+		8'h98: data = 7'b1100110;
+		8'h99: data = 7'b1100111;
+		8'h9A: data = 7'b1100111;
+		8'h9B: data = 7'b1101000;
+		8'h9C: data = 7'b1101000;
+		8'h9D: data = 7'b1101001;
+		8'h9E: data = 7'b1101001;
+		8'h9F: data = 7'b1101001;
+		8'hA0: data = 7'b1101010;
+		8'hA1: data = 7'b1101010;
+		8'hA2: data = 7'b1101011;
+		8'hA3: data = 7'b1101011;
+		8'hA4: data = 7'b1101100;
+		8'hA5: data = 7'b1101100;
+		8'hA6: data = 7'b1101100;
+		8'hA7: data = 7'b1101101;
+		8'hA8: data = 7'b1101101;
+		8'hA9: data = 7'b1101110;
+		8'hAA: data = 7'b1101110;
+		8'hAB: data = 7'b1101110;
+		8'hAC: data = 7'b1101111;
+		8'hAD: data = 7'b1101111;
+		8'hAE: data = 7'b1110000;
+		8'hAF: data = 7'b1110000;
+		8'hB0: data = 7'b1110000;
+		8'hB1: data = 7'b1110001;
+		8'hB2: data = 7'b1110001;
+		8'hB3: data = 7'b1110001;
+		8'hB4: data = 7'b1110010;
+		8'hB5: data = 7'b1110010;
+		8'hB6: data = 7'b1110011;
+		8'hB7: data = 7'b1110011;
+		8'hB8: data = 7'b1110011;
+		8'hB9: data = 7'b1110100;
+		8'hBA: data = 7'b1110100;
+		8'hBB: data = 7'b1110100;
+		8'hBC: data = 7'b1110101;
+		8'hBD: data = 7'b1110101;
+		8'hBE: data = 7'b1110101;
+		8'hBF: data = 7'b1110101;
+		8'hC0: data = 7'b1110110;
+		8'hC1: data = 7'b1110110;
+		8'hC2: data = 7'b1110110;
+		8'hC3: data = 7'b1110111;
+		8'hC4: data = 7'b1110111;
+		8'hC5: data = 7'b1110111;
+		8'hC6: data = 7'b1110111;
+		8'hC7: data = 7'b1111000;
+		8'hC8: data = 7'b1111000;
+		8'hC9: data = 7'b1111000;
+		8'hCA: data = 7'b1111001;
+		8'hCB: data = 7'b1111001;
+		8'hCC: data = 7'b1111001;
+		8'hCD: data = 7'b1111001;
+		8'hCE: data = 7'b1111010;
+		8'hCF: data = 7'b1111010;
+		8'hD0: data = 7'b1111010;
+		8'hD1: data = 7'b1111010;
+		8'hD2: data = 7'b1111010;
+		8'hD3: data = 7'b1111011;
+		8'hD4: data = 7'b1111011;
+		8'hD5: data = 7'b1111011;
+		8'hD6: data = 7'b1111011;
+		8'hD7: data = 7'b1111011;
+		8'hD8: data = 7'b1111100;
+		8'hD9: data = 7'b1111100;
+		8'hDA: data = 7'b1111100;
+		8'hDB: data = 7'b1111100;
+		8'hDC: data = 7'b1111100;
+		8'hDD: data = 7'b1111101;
+		8'hDE: data = 7'b1111101;
+		8'hDF: data = 7'b1111101;
+		8'hE0: data = 7'b1111101;
+		8'hE1: data = 7'b1111101;
+		8'hE2: data = 7'b1111101;
+		8'hE3: data = 7'b1111101;
+		8'hE4: data = 7'b1111110;
+		8'hE5: data = 7'b1111110;
+		8'hE6: data = 7'b1111110;
+		8'hE7: data = 7'b1111110;
+		8'hE8: data = 7'b1111110;
+		8'hE9: data = 7'b1111110;
+		8'hEA: data = 7'b1111110;
+		8'hEB: data = 7'b1111110;
+		8'hEC: data = 7'b1111111;
+		8'hED: data = 7'b1111111;
+		8'hEE: data = 7'b1111111;
+		8'hEF: data = 7'b1111111;
+		8'hF0: data = 7'b1111111;
+		8'hF1: data = 7'b1111111;
+		8'hF2: data = 7'b1111111;
+		8'hF3: data = 7'b1111111;
+		8'hF4: data = 7'b1111111;
+		8'hF5: data = 7'b1111111;
+		8'hF6: data = 7'b1111111;
+		8'hF7: data = 7'b1111111;
+		8'hF8: data = 7'b1111111;
+		8'hF9: data = 7'b1111111;
+		8'hFA: data = 7'b1111111;
+		8'hFB: data = 7'b1111111;
+		8'hFC: data = 7'b1111111;
+		8'hFD: data = 7'b1111111;
+		8'hFE: data = 7'b1111111;
+		8'hFF: data = 7'b1111111;
+		endcase
+
+endmodule

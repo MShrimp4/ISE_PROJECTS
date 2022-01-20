@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Fri May 03 10:58:21 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "agtb" LOCATE = SITE "P61" LEVEL 1;
+COMP "a<0>" LOCATE = SITE "P139" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "P138" LEVEL 1;
+COMP "a<2>" LOCATE = SITE "P137" LEVEL 1;
+COMP "a<3>" LOCATE = SITE "P134" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "P143" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "P142" LEVEL 1;
+COMP "b<2>" LOCATE = SITE "P141" LEVEL 1;
+COMP "b<3>" LOCATE = SITE "P140" LEVEL 1;
+SCHEMATIC END;
+

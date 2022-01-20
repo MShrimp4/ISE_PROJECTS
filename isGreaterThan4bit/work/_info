@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/mshrimp/Documents/ISE_PROJECTS/HEX_to_sseg
+vgt_1bit
+!s110 1556882902
+!i10b 1
+!s100 l^N_?Y?>Kbj?]MEB4>[NE2
+Ije80U;CRkbnhQG?Go<TTN2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit
+w1556881009
+8C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_1bit.v
+FC:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_1bit.v
+Z2 L0 21
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1556882902.000000
+!s107 C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_1bit.v|
+!s101 -O0
+!i113 1
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vgt_4bit
+!s110 1556882906
+!i10b 1
+!s100 ;ofZ6nH<_[UR4WGhQQQ=a2
+I_G8EPgbBP_^<8I>Ia>>OQ3
+R0
+R1
+w1556881060
+8C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_4bit.v
+FC:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_4bit.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1556882906.000000
+!s107 C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_4bit.v|
+!s101 -O0
+!i113 1
+R4
+vgt_test
+!s110 1556882984
+!i10b 1
+!s100 BD[14a?B6A55G7BZ1YIJz1
+IknE:X;1c[W4=X>LRXFP811
+R0
+R1
+w1556882977
+8C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_test.v
+FC:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_test.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1556882984.000000
+!s107 C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mshrimp/Documents/ISE_PROJECTS/isGreaterThan4bit/gt_test.v|
+!s101 -O0
+!i113 1
+R4

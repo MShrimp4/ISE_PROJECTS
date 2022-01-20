@@ -1,0 +1,137 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vadder
+Z0 !s110 1559176542
+!i10b 1
+!s100 2IL]28VE^GoS[NfO18[;g2
+I0VaTl?X1>eU2?HQZKPR2[2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/SGCC3/Desktop/booth
+w1558259520
+8C:/Users/SGCC3/Desktop/booth/adder.v
+FC:/Users/SGCC3/Desktop/booth/adder.v
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1559176542.000000
+!s107 C:/Users/SGCC3/Desktop/booth/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/SGCC3/Desktop/booth/adder.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vbooth
+R0
+!i10b 1
+!s100 i2]U80Y^JflA8:6]OSG142
+If0YFHcb2F?lM2lOkFjEg:0
+R1
+R2
+w1559173093
+8C:/Users/SGCC3/Desktop/booth/booth.v
+FC:/Users/SGCC3/Desktop/booth/booth.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/SGCC3/Desktop/booth/booth.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/SGCC3/Desktop/booth/booth.v|
+!s101 -O0
+!i113 1
+R5
+vbooth_test
+R0
+!i10b 1
+!s100 IU6dc=670hZENT<[:JlD:3
+I8^?[5?zgQ63NJSelN5F3=1
+R1
+R2
+w1559171908
+8C:/Users/SGCC3/Desktop/booth/booth_test.v
+FC:/Users/SGCC3/Desktop/booth/booth_test.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/SGCC3/Desktop/booth/booth_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/SGCC3/Desktop/booth/booth_test.v|
+!s101 -O0
+!i113 1
+R5
+vCSA
+R0
+!i10b 1
+!s100 nzS?jdQ4lDZfWWz:lX>`O2
+IeRnEmlDc3?Z4?<hQbWMgL3
+R1
+R2
+w1558257756
+8C:/Users/SGCC3/Desktop/booth/csa.v
+FC:/Users/SGCC3/Desktop/booth/csa.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/SGCC3/Desktop/booth/csa.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/SGCC3/Desktop/booth/csa.v|
+!s101 -O0
+!i113 1
+R5
+n@c@s@a
+vmux
+R0
+!i10b 1
+!s100 ?J3EVDLb6I][LAO[]hBGR1
+IYRciR@AIXW6P5aUQ25_:;1
+R1
+R2
+w1558257032
+8C:/Users/SGCC3/Desktop/booth/mux.v
+FC:/Users/SGCC3/Desktop/booth/mux.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/SGCC3/Desktop/booth/mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/SGCC3/Desktop/booth/mux.v|
+!s101 -O0
+!i113 1
+R5
+vtest
+!s110 1559176543
+!i10b 1
+!s100 B;QfmDLidihe8QBJ`TaYk0
+INd@4fXTe9]P`j;BNC6?4T1
+R1
+R2
+w1558260114
+8C:/Users/SGCC3/Desktop/booth/test.v
+FC:/Users/SGCC3/Desktop/booth/test.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/SGCC3/Desktop/booth/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/SGCC3/Desktop/booth/test.v|
+!s101 -O0
+!i113 1
+R5

@@ -1,0 +1,2 @@
+verilog work "pwm_led_dimmer.v"
+verilog work "pwm_test.v"

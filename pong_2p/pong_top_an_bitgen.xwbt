@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/ISE_PROJECTS/pong_2p/pong_top_an.ncd
+OUTFILE=/home/ise/ISE_PROJECTS/pong_2p/pong_top_an.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=/home/ise/ISE_PROJECTS/pong_2p
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620
